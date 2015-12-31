@@ -1,0 +1,6 @@
+\beamer@endinputifotherversion {3.33pt}
+\select@language {ngerman}
+\beamer@sectionintoc {1}{Was ist Informationsentropie allgemein?}{3}{0}{1}
+\beamer@sectionintoc {2}{Das holographische Prinzip}{4}{0}{2}
+\beamer@sectionintoc {3}{Wirkungsintegrale}{5}{0}{3}
+\beamer@sectionintoc {4}{Loop Quantum Gravity (LQG)}{6}{0}{4}

@@ -1,0 +1,60 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{Brenig}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Brenig}{B.}%
+     {Wilhelm}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer-Verlag}%
+  }
+  \strng{namehash}{BW1}
+  \strng{fullhash}{BW1}
+  \field{sortinit}{B}
+  \field{edition}{3}
+  \field{title}{Statistische Theorie der Wärme, Gleichgewichtsphänomene}
+  \field{year}{1992}
+\endentry
+
+\entry{ParticleCreation}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {S.W.Hawking}{S.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Commun. math. Phys.}%
+  }
+  \strng{namehash}{S1}
+  \strng{fullhash}{S1}
+  \field{sortinit}{S}
+  \field{title}{Particle Creation by Black Holes}
+  \field{volume}{43}
+  \field{year}{1975}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
