@@ -1,0 +1,21 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {ngerman}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Informationsentropie im Allgemeinen}{3}{section.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}In Verbindung mit Verschr\IeC {\"a}nkungsentropie (Entanglement Entropy)}{4}{section.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Das holographische Prinzip}{7}{section.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Evaporation}{8}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Die Bekenstein-Hawking Entropie}{8}{section.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Wirkungsintegrale}{10}{section.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}Loop Quantum Gravity (LQG)}{10}{section.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A}Reiner Zustand}{10}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B}Zust\IeC {\"a}nde in der Thermodynamik}{10}{appendix.B}

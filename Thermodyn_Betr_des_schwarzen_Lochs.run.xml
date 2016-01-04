@@ -44,11 +44,11 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>Informationsentropie.aux</file>
-      <file>Informationsentropie-blx.bib</file>
+      <file>Thermodyn_Betr_des_schwarzen_Lochs.aux</file>
+      <file>Thermodyn_Betr_des_schwarzen_Lochs-blx.bib</file>
     </provides>
     <requires type="dynamic">
-      <file>Informationsentropie.bbl</file>
+      <file>Thermodyn_Betr_des_schwarzen_Lochs.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-compat.def</file>
@@ -67,20 +67,20 @@
     <cmdline>
       <binary>bibtex</binary>
       <option>-min-crossrefs 2</option>
-      <infile>Informationsentropie</infile>
+      <infile>Thermodyn_Betr_des_schwarzen_Lochs</infile>
     </cmdline>
     <input>
-      <file>Informationsentropie.aux</file>
+      <file>Thermodyn_Betr_des_schwarzen_Lochs.aux</file>
     </input>
     <output>
-      <file>Informationsentropie.bbl</file>
+      <file>Thermodyn_Betr_des_schwarzen_Lochs.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>Informationsentropie.bbl</file>
+      <file>Thermodyn_Betr_des_schwarzen_Lochs.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>Informationsentropie.aux</file>
-      <file>Informationsentropie-blx.bib</file>
+      <file>Thermodyn_Betr_des_schwarzen_Lochs.aux</file>
+      <file>Thermodyn_Betr_des_schwarzen_Lochs-blx.bib</file>
     </requires>
     <requires type="editable">
       <file>mybib.bib</file>

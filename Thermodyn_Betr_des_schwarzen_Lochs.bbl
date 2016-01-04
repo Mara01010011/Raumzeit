@@ -35,6 +35,25 @@
   \field{year}{1992}
 \endentry
 
+\entry{Revolution}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Leonard~Susskind}{L.~S.}%
+     {James~Lindesay}{J.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {World Scientific}%
+  }
+  \strng{namehash}{LSJL1}
+  \strng{fullhash}{LSJL1}
+  \field{sortinit}{L}
+  \field{title}{an introduction to black holes, information and the string
+  theory revolution, the holographic universe}
+  \field{year}{2005}
+\endentry
+
 \entry{ParticleCreation}{book}{}
   \name{author}{1}{}{%
     {{}%
@@ -49,6 +68,7 @@
   \strng{namehash}{S1}
   \strng{fullhash}{S1}
   \field{sortinit}{S}
+  \field{pages}{199\bibrangedash 220}
   \field{title}{Particle Creation by Black Holes}
   \field{volume}{43}
   \field{year}{1975}
