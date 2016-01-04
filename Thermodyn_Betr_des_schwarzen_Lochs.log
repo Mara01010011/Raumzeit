@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.9.8)  4 JAN 2016 11:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.9.8)  4 JAN 2016 16:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1009,14 +1009,20 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 232.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 232.
+
+<BHentropy1.jpeg, id=126, 144.54pt x 98.769pt>
+File: BHentropy1.jpeg Graphic file (type jpg)
+ <use BHentropy1.jpeg>
+Package pdftex.def Info: BHentropy1.jpeg used on input line 246.
+(pdftex.def)             Requested size: 250.95587pt x 171.49493pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 244.
+(babel)             in language  on input line 249.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 244.
+(babel)             in language  on input line 249.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 244.
+(babel)             in language  on input line 249.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 244.
+(babel)             in language  on input line 249.
  [7]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 252.
@@ -1035,73 +1041,88 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 262.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 277.
+(babel)             in language  on input line 265.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 277.
+(babel)             in language  on input line 265.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 277.
+(babel)             in language  on input line 265.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 277.
- [8]
+(babel)             in language  on input line 265.
+ [8 <./BHentropy1.jpeg>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 321.
+(babel)             in language  on input line 300.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 321.
+(babel)             in language  on input line 300.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 321.
+(babel)             in language  on input line 300.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 321.
- [9]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 321.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 321.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 323.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 323.
+(babel)             in language  on input line 300.
 
-Overfull \hbox (12.53688pt too wide) in paragraph at lines 324--325
+[9]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 328.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 328.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 330.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 330.
+
+Overfull \hbox (12.53688pt too wide) in paragraph at lines 331--332
 \T1/lmr/m/n/10.95 Die Loop-Quantengravitation (Loop = Schlei-fen) ist ei-ne Kon
 -kur-renz-theo-rie der Stringtheo-
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 327.
+(babel)             in language  on input line 332.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 327.
+(babel)             in language  on input line 332.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 334.
+(babel)             in language  on input line 332.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 334.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 342.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 342.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 342.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 342.
+(babel)             in language  on input line 332.
 [10]
-Overfull \hbox (2.35814pt too wide) in paragraph at lines 345--345
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 334.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 334.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 341.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 341.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 359.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 359.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 359.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 359.
+ [11]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 360.
+
+ (c:/texlive/2014/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Overfull \hbox (7.83313pt too wide) in paragraph at lines 362--362
 []\T1/lmr/m/n/10.95 Wilhelm Bre-nig. \T1/lmr/m/it/10.95 Sta-tis-ti-sche Theo-ri
 e der Wär-me, Gleich-ge-wicht-sphä-no-me-ne\T1/lmr/m/n/10.95 . 3. Aufl.
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 345.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 362.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 345.
+(babel)             in language  on input line 362.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 345.
+(babel)             in language  on input line 362.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 345.
+(babel)             in language  on input line 362.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 345.
-[11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 345.
+(babel)             in language  on input line 362.
+[12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 362.
  (./Thermodyn_Betr_des_schwarzen_Lochs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 345.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 345.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 362.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 362.
 Package rerunfilecheck Info: File `Thermodyn_Betr_des_schwarzen_Lochs.out' has 
 not changed.
 (rerunfilecheck)             Checksum: 17496FC963B01BBDA4A09DE890E39B1D;579.
@@ -1109,37 +1130,38 @@ Package logreq Info: Writing requests to 'Thermodyn_Betr_des_schwarzen_Lochs.ru
 n.xml'.
 \openout1 = `Thermodyn_Betr_des_schwarzen_Lochs.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 345.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 362.
  ) 
 Here is how much of TeX's memory you used:
- 13206 strings out of 493117
- 207898 string characters out of 6138985
+ 13285 strings out of 493117
+ 209202 string characters out of 6138985
  451117 words of memory out of 5000000
- 16407 multiletter control sequences out of 15000+600000
- 62232 words of font info for 45 fonts, out of 8000000 for 9000
+ 16465 multiletter control sequences out of 15000+600000
+ 65346 words of font info for 47 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 45i,21n,48p,960b,1470s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,21n,49p,960b,1470s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2014/tex
 mf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2014/texmf-dist/fonts/enc/
 dvips/lm/lm-mathsy.enc}{c:/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 }{c:/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}<c:/texlive/2014/
 texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2014/texmf-dist/fonts/t
-ype1/public/lm/lmex10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/lm/lmm
-i10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/lm/lmmi6.pfb><c:/texlive
-/2014/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2014/texmf-dist/fo
-nts/type1/public/lm/lmr10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/lm
-/lmr12.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texli
-ve/2014/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2014/texmf-dist/f
-onts/type1/public/lm/lmr9.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/lm
-/lmri10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/
-texlive/2014/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2014/texmf
--dist/fonts/type1/public/lm/lmsy6.pfb><c:/texlive/2014/texmf-dist/fonts/type1/p
-ublic/lm/lmsy8.pfb>
-Output written on Thermodyn_Betr_des_schwarzen_Lochs.pdf (11 pages, 948650 byte
-s).
+ype1/public/lm/lmcsc10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/lm/lm
+ex10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texli
+ve/2014/texmf-dist/fonts/type1/public/lm/lmmi6.pfb><c:/texlive/2014/texmf-dist/
+fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/
+lm/lmr10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/te
+xlive/2014/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2014/texmf-dis
+t/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public
+/lm/lmr9.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/t
+exlive/2014/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2014/texm
+f-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2014/texmf-dist/fonts/type1
+/public/lm/lmsy6.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/lm/lmsy8.pf
+b><c:/texlive/2014/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
+Output written on Thermodyn_Betr_des_schwarzen_Lochs.pdf (12 pages, 1013534 byt
+es).
 PDF statistics:
- 234 PDF objects out of 1000 (max. 8388607)
- 202 compressed objects within 3 object streams
- 60 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 293 PDF objects out of 1000 (max. 8388607)
+ 256 compressed objects within 3 object streams
+ 73 named destinations out of 1000 (max. 500000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

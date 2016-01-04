@@ -16,6 +16,53 @@
   {}
 \endgroup
 
+\entry{BombelliKouLeeSorkin}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Bombelli}{B.}%
+     {Koul R. Lee~J.}{K.~R. L.~J.}%
+     {}{}%
+     {L.}{L.}}%
+    {{}%
+     {Sorkin}{S.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BLKRLJSR1}
+  \strng{fullhash}{BLKRLJSR1}
+  \field{sortinit}{B}
+  \field{pages}{373}
+  \verb{url}
+  \verb http://dx.doi.org/10.1103/PhysRevD.34.373
+  \endverb
+  \field{volume}{34}
+  \field{journaltitle}{Physical Review D}
+  \field{year}{1986}
+\endentry
+
+\entry{BowickSmolinWijewardhana}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Bowick}{B.}%
+     {Smolin~L.}{S.~L.}%
+     {}{}%
+     {M.}{M.}}%
+    {{}%
+     {Wijewardhana}{W.}%
+     {L.C.R.}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BMSLWL1}
+  \strng{fullhash}{BMSLWL1}
+  \field{sortinit}{B}
+  \field{pages}{113}
+  \field{volume}{19}
+  \field{journaltitle}{Gen. Rel. Grav.}
+  \field{year}{1987}
+\endentry
+
 \entry{Brenig}{book}{}
   \name{author}{1}{}{%
     {{}%
@@ -33,6 +80,72 @@
   \field{edition}{3}
   \field{title}{Statistische Theorie der Wärme, Gleichgewichtsphänomene}
   \field{year}{1992}
+\endentry
+
+\entry{Carlip}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Carlip}{C.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CS1}
+  \strng{fullhash}{CS1}
+  \field{sortinit}{C}
+  \field{pages}{3327}
+  \verb{url}
+  \verb http://xxx.lanl.gov/abs/gr-qc/9906126
+  \endverb
+  \field{volume}{16}
+  \field{journaltitle}{Class. Quantum Gravity}
+  \field{year}{1999}
+\endentry
+
+\entry{FrolovNovikov}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Frolov}{F.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Novikov}{N.}%
+     {I.}{I.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FVNI1}
+  \strng{fullhash}{FVNI1}
+  \field{sortinit}{F}
+  \field{pages}{4545}
+  \field{title}{Dynamical Origin of the Entropy of a Black Hole}
+  \verb{url}
+  \verb http://xxx.tau.ac.il/abs/gr-qc/9309001
+  \endverb
+  \field{volume}{48}
+  \field{journaltitle}{Physical Review D}
+  \field{year}{1993}
+\endentry
+
+\entry{Hooft}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hooft}{H.}%
+     {G.}{G.}%
+     {'t}{t.}%
+     {}{}}%
+  }
+  \strng{namehash}{HGt1}
+  \strng{fullhash}{HGt1}
+  \field{sortinit}{H}
+  \field{pages}{726}
+  \verb{url}
+  \verb http://xxx.lanl.gov/abs/gr-qc/9607022
+  \endverb
+  \field{volume}{256}
+  \field{journaltitle}{Nuclear Physics B}
+  \field{year}{1985}
 \endentry
 
 \entry{Revolution}{book}{}
@@ -54,7 +167,71 @@
   \field{year}{2005}
 \endentry
 
-\entry{ParticleCreation}{book}{}
+\entry{Srednicki}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Srednicki}{S.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SM1}
+  \strng{fullhash}{SM1}
+  \field{sortinit}{S}
+  \field{pages}{66}
+  \verb{url}
+  \verb http://xxx.lanl.gov/abs/hep-th/9303048
+  \endverb
+  \field{volume}{71}
+  \field{journaltitle}{Class. Quantum Gravity}
+  \field{year}{1993}
+\endentry
+
+\entry{StromingerWafa}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Strominger}{S.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wafa}{W.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SAWC1}
+  \strng{fullhash}{SAWC1}
+  \field{sortinit}{S}
+  \field{pages}{99}
+  \verb{url}
+  \verb http://xxx.lanl.gov/abs/hep-th/9601029
+  \endverb
+  \field{volume}{379}
+  \field{journaltitle}{Physics Letters B}
+  \field{year}{1996}
+\endentry
+
+\entry{Susskind}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Susskind}{S.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SL1}
+  \strng{fullhash}{SL1}
+  \field{sortinit}{S}
+  \field{title}{Some speculations about black hole entropy in string theory}
+  \verb{url}
+  \verb http://xxx.lanl.gov/abs/hep-th/9309145
+  \endverb
+  \field{journaltitle}{unpublished}
+  \field{year}{1993}
+\endentry
+
+\entry{ParticleCreation}{article}{}
   \name{author}{1}{}{%
     {{}%
      {S.W.Hawking}{S.}%
@@ -62,16 +239,76 @@
      {}{}%
      {}{}}%
   }
-  \list{publisher}{1}{%
-    {Commun. math. Phys.}%
-  }
   \strng{namehash}{S1}
   \strng{fullhash}{S1}
   \field{sortinit}{S}
   \field{pages}{199\bibrangedash 220}
   \field{title}{Particle Creation by Black Holes}
   \field{volume}{43}
+  \field{journaltitle}{Commun. math. Phys.}
   \field{year}{1975}
+\endentry
+
+\entry{ThorneZurek}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Thorne}{T.}%
+     {K.~S.}{K.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zurek}{Z.}%
+     {W.~H.}{W.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TKSZWH1}
+  \strng{fullhash}{TKSZWH1}
+  \field{sortinit}{T}
+  \field{pages}{2171}
+  \field{volume}{54}
+  \field{journaltitle}{Physical Review Letters}
+  \field{year}{1985}
+\endentry
+
+\entry{Wald}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Wald}{W.}%
+     {R.M.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WR1}
+  \strng{fullhash}{WR1}
+  \field{sortinit}{W}
+  \field{pages}{3427}
+  \verb{url}
+  \verb http://xxx.lanl.gov/abs/gr-qc/9307038
+  \endverb
+  \field{volume}{48}
+  \field{journaltitle}{Physical Review D}
+  \field{year}{1993}
+\endentry
+
+\entry{Witten}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Witten}{W.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WE1}
+  \strng{fullhash}{WE1}
+  \field{sortinit}{W}
+  \field{pages}{253}
+  \verb{url}
+  \verb http://xxx.lanl.gov/abs/hep-th/9802150
+  \endverb
+  \field{volume}{2}
+  \field{journaltitle}{Advances in Theoretical and Mathematical Physics}
+  \field{year}{1998}
 \endentry
 
 \lossort

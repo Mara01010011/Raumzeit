@@ -25,48 +25,229 @@ I was expecting a `,' or a `}'---line 37 of file mybib.bib
  :  YEAR = {2014}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--I'm ignoring Hooft's extra "journal" field
+--line 179 of file mybib.bib
+Warning--I'm ignoring Hooft's extra "volume" field
+--line 181 of file mybib.bib
+Warning--I'm ignoring Hooft's extra "pages" field
+--line 183 of file mybib.bib
+Warning--I'm ignoring Hooft's extra "year" field
+--line 185 of file mybib.bib
+I was expecting a `,' or a `}'---line 205 of file mybib.bib
+ :  
+ :  JOURNAL = {Foundations of Physics},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Biblatex version: 2.8
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2513 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2513 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2513 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2513 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2513 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2513 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2513 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2513 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2513 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2513 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2513 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2513 of file biblatex.bst
+Too many commas in name 1 of "Bowick, M., Smolin, L. and Wijewardhana, L.C.R." for entry BowickSmolinWijewardhana
+while executing---line 2513 of file biblatex.bst
+Too many commas in name 1 of "Bowick, M., Smolin, L. and Wijewardhana, L.C.R." for entry BowickSmolinWijewardhana
+while executing---line 2513 of file biblatex.bst
+Too many commas in name 1 of "Bowick, M., Smolin, L. and Wijewardhana, L.C.R." for entry BowickSmolinWijewardhana
+while executing---line 2513 of file biblatex.bst
+Too many commas in name 1 of "Bowick, M., Smolin, L. and Wijewardhana, L.C.R." for entry BowickSmolinWijewardhana
+while executing---line 2513 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2517 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2517 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2517 of file biblatex.bst
+Too many commas in name 1 of "Bowick, M., Smolin, L. and Wijewardhana, L.C.R." for entry BowickSmolinWijewardhana
+while executing---line 2517 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2523 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2523 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2523 of file biblatex.bst
+Too many commas in name 1 of "Bowick, M., Smolin, L. and Wijewardhana, L.C.R." for entry BowickSmolinWijewardhana
+while executing---line 2523 of file biblatex.bst
+Too many commas in name 1 of "Bowick, M., Smolin, L. and Wijewardhana, L.C.R." for entry BowickSmolinWijewardhana
+while executing---line 2527 of file biblatex.bst
+Too many commas in name 1 of "Bowick, M., Smolin, L. and Wijewardhana, L.C.R." for entry BowickSmolinWijewardhana
+while executing---line 2527 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2527 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2527 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2527 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2527 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2527 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2527 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2531 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2531 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2531 of file biblatex.bst
+Too many commas in name 1 of "Bowick, M., Smolin, L. and Wijewardhana, L.C.R." for entry BowickSmolinWijewardhana
+while executing---line 2531 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2537 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2537 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2537 of file biblatex.bst
+Too many commas in name 1 of "Bowick, M., Smolin, L. and Wijewardhana, L.C.R." for entry BowickSmolinWijewardhana
+while executing---line 2537 of file biblatex.bst
+Too many commas in name 1 of "Bowick, M., Smolin, L. and Wijewardhana, L.C.R." for entry BowickSmolinWijewardhana
+while executing---line 2541 of file biblatex.bst
+Too many commas in name 1 of "Bowick, M., Smolin, L. and Wijewardhana, L.C.R." for entry BowickSmolinWijewardhana
+while executing---line 2541 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2541 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2541 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2541 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2541 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2541 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2541 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2595 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2595 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2595 of file biblatex.bst
+Too many commas in name 1 of "Bowick, M., Smolin, L. and Wijewardhana, L.C.R." for entry BowickSmolinWijewardhana
+while executing---line 2595 of file biblatex.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 4 entries,
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bowick, M., Smolin, L. and Wijewardhana, L.C.R." for entry BowickSmolinWijewardhana
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bowick, M., Smolin, L. and Wijewardhana, L.C.R." for entry BowickSmolinWijewardhana
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bowick, M., Smolin, L. and Wijewardhana, L.C.R." for entry BowickSmolinWijewardhana
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bowick, M., Smolin, L. and Wijewardhana, L.C.R." for entry BowickSmolinWijewardhana
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bowick, M., Smolin, L. and Wijewardhana, L.C.R." for entry BowickSmolinWijewardhana
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bowick, M., Smolin, L. and Wijewardhana, L.C.R." for entry BowickSmolinWijewardhana
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bowick, M., Smolin, L. and Wijewardhana, L.C.R." for entry BowickSmolinWijewardhana
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Bowick, M., Smolin, L. and Wijewardhana, L.C.R." for entry BowickSmolinWijewardhana
+while executing---line 2659 of file biblatex.bst
+You've used 15 entries,
             6047 wiz_defined-function locations,
-            1149 strings with 8547 characters,
-and the built_in function-call counts, 10647 in all, are:
-= -- 515
-> -- 342
-< -- 121
-+ -- 133
-- -- 96
-* -- 525
-:= -- 779
+            1226 strings with 9758 characters,
+and the built_in function-call counts, 40093 in all, are:
+= -- 1419
+> -- 1338
+< -- 379
++ -- 352
+- -- 473
+* -- 2731
+:= -- 2489
 add.period$ -- 0
-call.type$ -- 4
-change.case$ -- 78
+call.type$ -- 15
+change.case$ -- 161
 chr.to.int$ -- 34
-cite$ -- 6
-duplicate$ -- 1086
-empty$ -- 1090
-format.name$ -- 147
-if$ -- 2489
+cite$ -- 28
+duplicate$ -- 4532
+empty$ -- 4439
+format.name$ -- 779
+if$ -- 9220
 int.to.chr$ -- 0
-int.to.str$ -- 9
+int.to.str$ -- 30
 missing$ -- 0
-newline$ -- 79
-num.names$ -- 179
-pop$ -- 998
+newline$ -- 316
+num.names$ -- 611
+pop$ -- 4490
 preamble$ -- 1
-purify$ -- 81
+purify$ -- 185
 quote$ -- 0
-skip$ -- 694
+skip$ -- 2487
 stack$ -- 0
-substring$ -- 422
-swap$ -- 329
-text.length$ -- 89
-text.prefix$ -- 3
+substring$ -- 593
+swap$ -- 1453
+text.length$ -- 368
+text.prefix$ -- 14
 top$ -- 1
-type$ -- 140
+type$ -- 558
 warning$ -- 0
-while$ -- 103
+while$ -- 297
 width$ -- 0
-write$ -- 74
-(There were 2 error messages)
+write$ -- 300
+(There were 87 error messages)
