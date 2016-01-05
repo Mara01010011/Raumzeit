@@ -16,6 +16,25 @@
   {}
 \endgroup
 
+\entry{BekensteinHawking}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bekenstein}{B.}%
+     {J.~D.}{J.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BJD1}
+  \strng{fullhash}{BJD1}
+  \field{sortinit}{B}
+  \field{number}{10}
+  \field{pages}{7375}
+  \field{title}{{B}ekenstein-{H}awking entropy}
+  \field{volume}{3}
+  \field{journaltitle}{Scholarpedia}
+  \field{year}{2008}
+\endentry
+
 \entry{BombelliKouLeeSorkin}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -128,6 +147,20 @@
   \field{year}{1993}
 \endentry
 
+\entry{JerusalemsLectures}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Harlow}{H.}%
+     {Daniel}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HD1}
+  \strng{fullhash}{HD1}
+  \field{sortinit}{H}
+  \field{title}{Jerusalem Lectures on Black Holes and Quantum Information}
+\endentry
+
 \entry{Hooft}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -229,6 +262,24 @@
   \endverb
   \field{journaltitle}{unpublished}
   \field{year}{1993}
+\endentry
+
+\entry{BreakdownGravitationalCollapse}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {S.W.Hawking}{S.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{S1}
+  \strng{fullhash}{S1}
+  \field{sortinit}{S}
+  \field{pages}{2460\bibrangedash 2473}
+  \field{title}{Breakdown of Predictability in Gravitational Collapse}
+  \field{volume}{14}
+  \field{journaltitle}{Phys Rev. D}
+  \field{year}{1976}
 \endentry
 
 \entry{ParticleCreation}{article}{}

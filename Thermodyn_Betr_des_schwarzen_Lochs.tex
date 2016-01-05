@@ -101,37 +101,37 @@ Wir machen nun zwei Zahlenbeispiele zur Veranschaulichung:
 (siehe auch \cite{Brenig})
 
 \section{In Verbindung mit Verschränkungsentropie (Entanglement Entropy)} %S.87
-	Von einer Verschränkung spricht man bei Korrelationen zwischen zwei Untersystemen. Wir brauchen sie später für die Informationsentropie.
+Von einer Verschränkung spricht man bei Korrelationen zwischen zwei Untersystemen. Wir brauchen sie später für die Informationsentropie.
 		
-	Es seien zwei Untersysteme $A$ und $B$, das Untersystem $A(B)$ wird beschrieben durch ein komplette Menge an kommutierenden Opservablen $\alpha(\beta)$. Die Zusammensetzung beider Systeme wäre in einem reinen Zustand (falls das unbekannt ist, siehe Anhang \ref{ReinerZustandA}) durch die Wellenfunktion $\Psi(\alpha,\beta)$ beschrieben. Sie sind zunächst separiert voneinander, alle Messungen die an $A(B)$ gemacht werden, können mit Hilfe der Dichtematrix $\rho_A(\rho_B)$ beschrieben werden.
+Es seien zwei Untersysteme $A$ und $B$, das Untersystem $A(B)$ wird beschrieben durch ein komplette Menge an kommutierenden Opservablen $\alpha(\beta)$. Die Zusammensetzung beider Systeme wäre in einem reinen Zustand (falls das unbekannt ist, siehe Anhang \ref{ReinerZustandA}) durch die Wellenfunktion $\Psi(\alpha,\beta)$ beschrieben. Sie sind zunächst separiert voneinander, alle Messungen die an $A(B)$ gemacht werden, können mit Hilfe der Dichtematrix $\rho_A(\rho_B)$ beschrieben werden.
 	
-	Also für ein $\alpha'$ welches in $\alpha$ übergeht und ein $\beta'$ welches in ein $\beta$ übergeht bedeutet das:
-		\begin{align}
-			\begin{aligned}
-			(\rho_A)_{\alpha \alpha'} &=
-			\sum_{\beta} \Psi^*(\alpha, \beta) \Psi(\alpha', \beta) \\
-			(\rho_B)_{\beta \beta'} &= 
-			\sum_{\alpha} \Psi^* (\alpha, \beta) \Psi (\alpha, \beta')
-			\end{aligned}
-		\end{align}
-	Wir gehen nun von $\rho_A$ aus, um die Eigenschaften der Dichtematrix zu betrachten (wir könnten auch problemlos von $\rho_B$ ausgehen)
+Also für ein $\alpha'$ welches in $\alpha$ übergeht und ein $\beta'$ welches in ein $\beta$ übergeht bedeutet das:
+	\begin{align}
+		\begin{aligned}
+		(\rho_A)_{\alpha \alpha'} &=
+		\sum_{\beta} \Psi^*(\alpha, \beta) \Psi(\alpha', \beta) \\
+		(\rho_B)_{\beta \beta'} &= 
+		\sum_{\alpha} \Psi^* (\alpha, \beta) \Psi (\alpha, \beta')
+		\end{aligned}
+	\end{align}
+Wir gehen nun von $\rho_A$ aus, um die Eigenschaften der Dichtematrix zu betrachten (wir könnten auch problemlos von $\rho_B$ ausgehen)
 	\begin{enumerate}[1)]
-		\item Die Dichtematrix ist hermitesch
-			\begin{align}
-				(\rho_A)_{\alpha \alpha'} &= (\rho_A)^*_{\alpha' \alpha}
-			\end{align}
-		\item Die Dichtematrix ist positiv semidefinit, also alle ihre Eigenwerte sind 0 oder positiv.
-		\item Die Dichtematrix ist auf 1 normalisiert:
-			\begin{align}
-				Sp \, \rho = 1
-			\end{align}
-		Das bedeutet nun aber, dass die Eigenwerte nur Zahlen zwischen eins und null annehmen können. Wenn ein Eigenwert von $\rho_A$ gleich 1 ist, dann müssen alle Anderen verschwinden, und in dem Falle wäre dann $A$ in einem reinen Zustand. 
-		Dies geschieht nur, wenn die Wellenfunktion sich wie folgt faktorisieren lässt:
-			\begin{align}
-				\Psi (\alpha, \beta) &= \psi_A(\alpha) \psi_B (\beta)
-			\end{align} 
-		(hier wäre auch $B$ in einem reinen Zustand)
-		\item Die nicht-verschwindenden Eigenwerte von $\rho_A$ und $\rho_B$ sind gleich, wenn das Verbundsystem in einem reinen Zustand ist. (Ein Beweis ist zu finden auf S.72 \cite{Revolution})
+	\item Die Dichtematrix ist hermitesch
+		\begin{align}
+			(\rho_A)_{\alpha \alpha'} &= (\rho_A)^*_{\alpha' \alpha}
+		\end{align}
+	\item Die Dichtematrix ist positiv semidefinit, also alle ihre Eigenwerte sind 0 oder positiv.
+	\item Die Dichtematrix ist auf 1 normalisiert:
+		\begin{align}
+			Sp \, \rho = 1
+		\end{align}
+	Das bedeutet nun aber, dass die Eigenwerte nur Zahlen zwischen eins und null annehmen können. Wenn ein Eigenwert von $\rho_A$ gleich 1 ist, dann müssen alle Anderen verschwinden, und in dem Falle wäre dann $A$ in einem reinen Zustand. 
+	Dies geschieht nur, wenn die Wellenfunktion sich wie folgt faktorisieren lässt:
+		\begin{align}
+			\Psi (\alpha, \beta) &= \psi_A(\alpha) \psi_B (\beta)
+		\end{align} 
+	(hier wäre auch $B$ in einem reinen Zustand)
+	\item Die nicht-verschwindenden Eigenwerte von $\rho_A$ und $\rho_B$ sind gleich, wenn das Verbundsystem in einem reinen Zustand ist. (Ein Beweis ist zu finden auf S.72 \cite{Revolution})
 	\end{enumerate}
 Aus Letzterem folgt folgendes für Verschränkungsentropie:
 	\begin{align}
@@ -245,15 +245,25 @@ Eine Art und Weise dies zu betrachten ist mit Freiheitsgraden von $\Gamma$, welc
 		\begin{center}
 			\includegraphics[width=0.6\textwidth]{BHentropy1}
 		\end{center}
-		\caption{Zweidimensionale Oberfläche des Horizonts aufgeteilt in Planck Einheiten. Die Entropie hat allerdings eine Einheit von 4 solchen Planckflächen für ein Bit. Siehe \ref{BHEntropie}. (aus )}
+		\caption{Zweidimensionale Oberfläche des Horizonts aufgeteilt in Planck Einheiten. Die Entropie hat allerdings eine Einheit von 4 solchen Planckflächen für ein Bit. Siehe \ref{BHEntropie}. (aus \cite{BekensteinHawking})}
 	\end{figure} 
 	%\cite{BekensteinHawking}
 
 \section{Evaporation}
 Stephen Hawking hat in seinem Paper \cite{ParticleCreation} gezeigt, dass ein großes schwarzes Loch für einen Beobachter in großer Ferne eine Temperatur besitzt:
-\begin{align}
-T = \frac{1}{8 \pi MG}
-\end{align}
+	\begin{align}
+		T_{\text{Hawking}} = \frac{\hbar c^3}{8 \pi GM}
+	\end{align}
+Nun bedeutet dies eine gewisse Wärmestrahlung, welche von jedem schwarzen Loch ausgeht also ein Energieverlust. Dank Einstein wissen wir, dass Masse und Energie sich gleichen, wenn man c = 1 setzt. Jedes schwarze Loch verliert also im Lauf der Zeit an Masse, bis es verdampft. Dieser Vorgang wird als Evaporation bezeichnet. Nach einigen Rechnungen, siehe z.B. \cite{JerusalemsLectures}, erfahren wir, dass
+	\begin{align}
+		t_{\text{evap}} \sim G^2 M^3
+	\end{align}
+Ein sonnenschweres schwarzes Loch würde nach etwa $10^{66}$ Jahren verdampft sein (zum Vergleich, das alter unseres Universums wird auf $13,8 \cdot 10^{9}$ Jahre geschätzt). Man hätte ein riesen Problem dies nachzuweisen, vielleicht wenn wir herausfinden, wie wir kleinere schwarze Löcher produzieren können. 
+
+Aber was passiert mit der Entropie?
+Hawking \cite{BreakdownGravitationalCollapse} legte dar, dass die Vorstellung, die Entropie würde die Anzahl der Möglichkeiten zählen, wie ein schwarzes Loch entstehen könne, gegen die Quantenmechanik verstößt.
+Außerdem wird das schwarze Loch beim verdampfen bevor es komplett verschwindet erst Plancksche Größen annehmen, in der unsere bekannten physikalischen Gesetze vermutlich nicht mehr gelten. 
+	
 
 
 \section{Die Bekenstein-Hawking Entropie} \label{BHEntropie}
@@ -313,17 +323,20 @@ Zunächst betrachten wir Gründe, warum ein schwarzes Loch Entropie besitzen mus
 	\begin{itemize}
 		\item [~] \textit{Die Entropie des schwarzen Lochs ist die thermische Entropie der Quanten, welche die thermische Atmosphere des schwarzen Lochs formen.}
 	\end{itemize}
-	\cite{ThorneZurek} \cite{Hooft}
+	Hier geht es unter anderem um ein Konzept mit einer Mauer, die verhindert, dass die Atmosphäre und der Horizont sich berühren, wodurch die Entropie unendlich groß wird.  Dieses spezielle Beispiel ist hier \cite{Hooft} zu finden, außerdem haben sich mit dem Atmosphärenproblem auch noch Thorne und Zurek \cite{ThorneZurek} beschäftigt.
 	
 	\begin{itemize}
-		\item [~] \textit{Die Entropie des schwarzen Lochs zählt die Zustände oder Anregungen eines fundamentalen String.}
+		\item [~] \textit{Die Entropie des schwarzen Lochs zählt die Zustände oder Anregungen eines fundamentalen Strings.}
 	\end{itemize}
-	\cite{BowickSmolinWijewardhana} \cite{Susskind} \cite{StromingerWafa}
+	Die Strings aus der String Theorie können verschiedene Anregungen haben, deshalb gibt es auch eine Vielzahl von Stringzuständen. Deshalb haben sie auch eine Entropie, die im Gegensatz zum schwarzen Loch proportional zur Masse der Strings ist. Bowick, Smolin und Wijewardhana \cite{BowickSmolinWijewardhana} haben ein Argument vorgebracht, in dem die Stringkopplungskonstante $g$ sehr langsam verkleinert wird, sodass es möglich ist, ein schwarzes Loch auf Stringgröße zu schrumpfen. Dann wären ein String und ein schwarzes Loch bis auf die Konstante $g$ sich sehr ähnlich.
+	
+	Susskind \cite{Susskind} hat gezeigt, dass es eine eindeutige Beziehung zwischen String Zuständen und schwarzen Löchern gibt, bei der sie die gleiche Entropie haben. Von Strominger und Wafa \cite{StromingerWafa} wurde dies in einen Kontext mit einem fünf dimensionalen extremen schwarzen Loch eingebettet. 
 	
 	\begin{itemize}
 		\item [~] \textit{Die Entropie des schwarzen Lochs ist äquivalent zur thermischen Entropie der an der Grenze der Raumzeit zum s1chwarzen Loch angesiedelten Strahlung.}
 	\end{itemize}
-	\cite{Witten}
+	Hierbei geht es um die AdS/CFT (Anti-deSitter/conformal field theory) Übereinstimmung, welche eine Abbildung zwischen Gravitationsfreiheitsgraden in einer speziellen Raumzeit und Feldfreiheitsgraden am Rand bildet. 
+	Witten \cite{Witten} zeigte, dass die Entropie eines schwarzen Lochs die sich im Großteil des Anti-deSitter Raumes aufhält, gleich der thermischen Strahlung ist, die sich an seinem Rand befindet. 
 	
 \section{Wirkungsintegrale}
 
@@ -346,16 +359,7 @@ Ein Mikrozustand ist im klassischen Fall ein Punkt im Phasenraum. Damit ist Ort 
 \subsection*{Makrozustand}
 Viele Mikrozustände bilden einen Makrozustand, der durch Parameter dargestellt ist, die nicht mehr direkt mit Ort oder Impuls einzelner Teilchen zu tun hat. 
 
-%@article{BekensteinHawking,
-%	AUTHOR = {Bekenstein, J. D.},
-%	TITLE   = {{B}ekenstein-{H}awking entropy},
-%	YEAR	= {2008},
-%	JOURNAL	= {Scholarpedia},
-%	VOLUME  = {3},
-%	NUMBER  = {10},
-%	PAGES   = {7375}
-%	NOTE   = {revision \#135543}
-%}
+
 \newpage
 \printbibliography
 %\printindex

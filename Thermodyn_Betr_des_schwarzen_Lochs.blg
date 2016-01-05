@@ -38,6 +38,11 @@ I was expecting a `,' or a `}'---line 205 of file mybib.bib
  :  JOURNAL = {Foundations of Physics},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 263 of file mybib.bib
+ :  
+ :  NOTE   = {revision \#135543}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Biblatex version: 2.8
 Too many commas in name 1 of "Bombelli, L., Koul, R., Lee, J. and Sorkin, R." for entry BombelliKouLeeSorkin
 while executing---line 2513 of file biblatex.bst
@@ -209,45 +214,45 @@ Too many commas in name 1 of "Bowick, M., Smolin, L. and Wijewardhana, L.C.R." f
 while executing---line 2659 of file biblatex.bst
 Too many commas in name 1 of "Bowick, M., Smolin, L. and Wijewardhana, L.C.R." for entry BowickSmolinWijewardhana
 while executing---line 2659 of file biblatex.bst
-You've used 15 entries,
+You've used 18 entries,
             6047 wiz_defined-function locations,
-            1226 strings with 9758 characters,
-and the built_in function-call counts, 40093 in all, are:
-= -- 1419
-> -- 1338
-< -- 379
-+ -- 352
-- -- 473
-* -- 2731
-:= -- 2489
+            1244 strings with 10105 characters,
+and the built_in function-call counts, 47826 in all, are:
+= -- 1691
+> -- 1583
+< -- 448
++ -- 399
+- -- 547
+* -- 3219
+:= -- 2929
 add.period$ -- 0
-call.type$ -- 15
-change.case$ -- 161
+call.type$ -- 18
+change.case$ -- 189
 chr.to.int$ -- 34
-cite$ -- 28
-duplicate$ -- 4532
-empty$ -- 4439
-format.name$ -- 779
-if$ -- 9220
+cite$ -- 34
+duplicate$ -- 5447
+empty$ -- 5341
+format.name$ -- 929
+if$ -- 11011
 int.to.chr$ -- 0
-int.to.str$ -- 30
+int.to.str$ -- 38
 missing$ -- 0
-newline$ -- 316
-num.names$ -- 611
-pop$ -- 4490
+newline$ -- 367
+num.names$ -- 740
+pop$ -- 5445
 preamble$ -- 1
-purify$ -- 185
+purify$ -- 216
 quote$ -- 0
-skip$ -- 2487
+skip$ -- 2971
 stack$ -- 0
-substring$ -- 593
-swap$ -- 1453
-text.length$ -- 368
-text.prefix$ -- 14
+substring$ -- 674
+swap$ -- 1730
+text.length$ -- 437
+text.prefix$ -- 17
 top$ -- 1
-type$ -- 558
+type$ -- 672
 warning$ -- 0
-while$ -- 297
+while$ -- 350
 width$ -- 0
-write$ -- 300
-(There were 87 error messages)
+write$ -- 348
+(There were 88 error messages)
