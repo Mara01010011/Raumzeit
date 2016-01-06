@@ -6,16 +6,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}In Verbindung mit Verschr\IeC {\"a}nkungsentropie (Entanglement Entropy)}{4}{section.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Das holographische Prinzip}{7}{section.3}
+\contentsline {section}{\numberline {3}Das holographische Prinzip}{8}{section.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Evaporation}{8}{section.4}
+\contentsline {section}{\numberline {4}Evaporation}{9}{section.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Die Bekenstein-Hawking Entropie}{9}{section.5}
+\contentsline {section}{\numberline {5}Die Bekenstein-Hawking Entropie}{10}{section.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Wirkungsintegrale}{12}{section.6}
+\contentsline {section}{\numberline {6}Wirkungsintegrale}{13}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Loop Quantum Gravity (LQG)}{12}{section.7}
+\contentsline {section}{\numberline {7}Loop Quantum Gravity (LQG)}{13}{section.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}Reiner Zustand}{12}{appendix.A}
+\contentsline {section}{\numberline {A}Reiner Zustand}{13}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B}Zust\IeC {\"a}nde in der Thermodynamik}{12}{appendix.B}
+\contentsline {section}{\numberline {B}Zust\IeC {\"a}nde in der Thermodynamik}{13}{appendix.B}

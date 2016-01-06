@@ -10,6 +10,7 @@
 \usepackage{enumerate}
 \usepackage{amsmath}
 \usepackage{braket}
+\usepackage{placeins}
 \newcommand{\erw}[1]{\langle {#1} \rangle}
 \newcommand{\Hil}{\mathcal{H}}
 \newcommand{\diff}{\mathrm{d}}
@@ -179,7 +180,7 @@ In einem kleinen Untersystem verschwindet die Information, genauso wie in einem 
 
 Was passiert aber in einem mittelgroßen Untersystem? Statt der Erwartung, dass die Information stetig von 0 (für $\sigma_i$) zu $S_{\text{Thermal}}$ (für $\Sigma$) wandert, wird sie für alle Untersysteme kleiner als $\frac{1}{2}$ vom ganzen System verschwindend gering. 
 
-Dass Information in bit mit einem numerischen Wert $\log 2$ gerechnet wird, wissen wir seit Kap. \ref{InfoentropieAllg}. Für ein typisches Untersystem, welches kleiner als die Hälfte von $\Sigma$ ist, ist die Information kleiner als 1 bit, bei genau der Hälfte beträgt sie ungefähr 1 bit. In anderen Worten für $\Sigma_1 < \frac{1}{2} \Sigma$ 
+Dass Information in Bit mit einem numerischen Wert $\log 2$ gerechnet wird, wissen wir seit Kap. \ref{InfoentropieAllg}. Für ein typisches Untersystem, welches kleiner als die Hälfte von $\Sigma$ ist, ist die Information kleiner als 1 Bit, bei genau der Hälfte beträgt sie ungefähr 1 Bit. In anderen Worten für $\Sigma_1 < \frac{1}{2} \Sigma$ 
 	\begin{align*}
 		S(\Sigma_1) &\cong S_{\text{Thermal}}(\Sigma_1) \\
 		I(\Sigma_1) &\approx 0
@@ -194,7 +195,7 @@ Als nächstes betrachten wir ein System mit $\Sigma_1 > \frac{1}{2} \Sigma$. Wir
 		\right\}
 		\Rightarrow S(\Sigma_1) = S_{\text{Thermal}} (\Sigma - \Sigma_1)
 	\end{align}
-Die grobe Entropie von $\Sigma - \Sigma_1$ wird in der Ordnung $(1- f) S_{\text{Thermal}}(\Sigma)$ sein, wobei $f$ der Anteil aller einfacher Freiheitsgrade\footnote{Ein einzelner einfacher Freiheitsgrad repräsentiert ein einzelnen Bit an Information. Mit einem Freiheitsgrad ist soetwas wie ein Spin oder die An- bzw. Abwesenheit eines Fermions gemeint.} ist, die in $\Sigma_1$ vorkommen. 
+Die grobe Entropie von $\Sigma - \Sigma_1$ wird in der Ordnung $(1- f) S_{\text{Thermal}}(\Sigma)$ sein, wobei $f$ der Anteil aller einfacher Freiheitsgrade\footnote{Ein einzelner einfacher Freiheitsgrad repräsentiert ein einzelnen Bit an Information. Mit einem Freiheitsgrad ist so etwas wie ein Spin oder die An- bzw. Abwesenheit eines Fermions gemeint.} ist, die in $\Sigma_1$ vorkommen. 
 
 Die Information ist nun
 	\begin{align}
@@ -209,6 +210,12 @@ Um später auf die Verdunstung schwarzer Löcher und deren Information zurückzu
 
 Wir stellen uns eine Box mit Wenden an denen alles reflektiert wird. Innerhalb liegt eine Bombe die explodieren kann. Außerdem hat sie noch ein sehr kleines Loch, aus dem Strahlung entweichen kann.
 Das gesamte System $\Sigma$ ist aufgeteilt in das innere Untersystem $B$ und in das gesamte Äußere $A$ der Box. 
+\begin{figure} [!b]
+	\begin{center}
+		\includegraphics[width=0.5\textwidth]{Box}
+	\end{center}
+	\caption{\textit{Oben} ist die Von Neumann Entropie von $\Sigma_1$ gegen die Freiheitgrade aufgetragen. In der \textit{Mitte} ist es die Feinkrönige Entropie von $\Sigma_1$ und \textit{unten} ist es die Information. (aus \cite{Revolution})}
+\end{figure}
 
 Anfangs ist die Bombe im Grundzustand und die Entropie von $B$ ist verschwindend gering.
 Sobald die Bombe hoch geht setzt sie thermische Strahlung frei, welche die Box füllt. Die feinkörnige Entropie ändert sich nicht, aber die thermische Entropie steigt. Da noch kein Photon entweichen konnte, ändert sich auch nicht an der äußeren Entropie.
@@ -226,9 +233,14 @@ Als nächstes werden die Photonen langsam hinaus strömen mit dem Ergebnis, dass
 	\end{aligned}
 	\end{align}
 Wenn alle Photonen die Box verlassen, dann wird sie wieder im Grundzustand sein und die verschiedenen Entropien werden zurück auf null gehen.
-	
-	BILD AUF SEITE 92 EINFÜGEN BITTE
+Nun hat die grobkrönige Entropie des Äußeren ihr Maximum erreicht.
+Das zweite thermodynamische Gesetz verlangt, dass $S_{\text{Thermal}}(A)$ kurz nach der Explosion größer als $S_{\text{Thermal}}(B)$ ist. Die Verschränkungsentropie von $A$ muss allerdings verschwinden, weil auch die Verschränkung null wird. 
 
+Die eigentliche Verschränkungsentropie müsste aber kleiner sein als die thermische Entropie von $A$ oder $B$. Ab der Stelle $S_{\text{Thermal}}(A) = S_{\text{Thermal}}$ beginnt die Information außerhalb der Box zu steigen. Davor hat zwar Energie die Box verlassen, aber noch keine Information. Wenn also etwa die Hälfte der Entropie der Photonen die Box verlassen kommt zum ersten Mal Information nach draußen.
+
+Das bedeutet, Informationserhaltung gilt in konventionellen Quantensystemen, das Strahlungsfeld muss am Ende außerhalb der Box also in einem reinen Zustand sein.
+	
+\FloatBarrier
 \section{Das holographische Prinzip}
 Wir befinden uns in der String Theorie in einem flachen Raum. Wir schauen nun auf eine Region $\Gamma$ in so Einem. 
 
@@ -241,7 +253,7 @@ Wenn wir $L$ groß genug machen, werden die Freiheitsgrade also sehr dünn besie
 
 Eine Art und Weise dies zu betrachten ist mit Freiheitsgraden von $\Gamma$, welche alle auf $\partial \Gamma$ leben, mit einer Dichte nicht größer als $\sim 1$ Freiheitsgrad pro Planckfläche. In anderen Worten, wir beschreiben einen dreidimensionalen Raum, nämlich die Kugel um das schwarze Loch mit dem Horizontradius durch ein zweidimensionales Hologramm an der Grenze! Dies nennt man Holographisches Prinzip. 
 
-	\begin{figure}
+	\begin{figure} 
 		\begin{center}
 			\includegraphics[width=0.6\textwidth]{BHentropy1}
 		\end{center}
@@ -249,6 +261,7 @@ Eine Art und Weise dies zu betrachten ist mit Freiheitsgraden von $\Gamma$, welc
 	\end{figure} 
 	%\cite{BekensteinHawking}
 
+\FloatBarrier
 \section{Evaporation}
 Stephen Hawking hat in seinem Paper \cite{ParticleCreation} gezeigt, dass ein großes schwarzes Loch für einen Beobachter in großer Ferne eine Temperatur besitzt:
 	\begin{align}
@@ -355,7 +368,11 @@ Zunächst betrachten wir Gründe, warum ein schwarzes Loch Entropie besitzen mus
 \section{Wirkungsintegrale}
 
 \section{Loop Quantum Gravity (LQG)}	
-Die Loop-Quantengravitation (Loop = Schleifen) ist eine Konkurrenztheorie der Stringtheorie und geht nimmt keine Singularität in der Mitte des schwarzen Lochs an, sondern beinhaltet die Theorie, dass es weiße Löcher gibt, die wie schwarze Löcher, welche rückwärts in der Zeit leben, aussehen. 
+Die Loop-Quantengravitation (Loop = Schleifen) ist eine Konkurrenztheorie der Stringtheorie und nimmt keine Singularität in der Mitte des schwarzen Lochs an, sondern beinhaltet die Theorie, dass es weiße Löcher gibt, die sich wie schwarze Löcher verhalten, nur das die Zeit rückwärts läuft. 
+
+Ein einlaufendes Wellenpaket würde dann, während es einem 'Quantum bounce' durchmacht, durch das schwarze Loch in ein weißes Loch hineintunneln. Die Metrik, die Rovelli und Haggard \cite{LQGRovelli} aufgestellt haben, werde ich hier nun kurz anschneiden.
+
+
 
 \appendix
 \section{Reiner Zustand} \label{ReinerZustandA}

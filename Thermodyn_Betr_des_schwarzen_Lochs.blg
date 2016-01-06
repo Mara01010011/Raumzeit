@@ -214,45 +214,45 @@ Too many commas in name 1 of "Bowick, M., Smolin, L. and Wijewardhana, L.C.R." f
 while executing---line 2659 of file biblatex.bst
 Too many commas in name 1 of "Bowick, M., Smolin, L. and Wijewardhana, L.C.R." for entry BowickSmolinWijewardhana
 while executing---line 2659 of file biblatex.bst
-You've used 18 entries,
+You've used 19 entries,
             6047 wiz_defined-function locations,
-            1244 strings with 10105 characters,
-and the built_in function-call counts, 47826 in all, are:
-= -- 1691
-> -- 1583
-< -- 448
-+ -- 399
-- -- 547
-* -- 3219
-:= -- 2929
+            1250 strings with 10292 characters,
+and the built_in function-call counts, 50326 in all, are:
+= -- 1774
+> -- 1661
+< -- 472
++ -- 414
+- -- 573
+* -- 3376
+:= -- 3068
 add.period$ -- 0
-call.type$ -- 18
-change.case$ -- 189
+call.type$ -- 19
+change.case$ -- 198
 chr.to.int$ -- 34
-cite$ -- 34
-duplicate$ -- 5447
-empty$ -- 5341
-format.name$ -- 929
-if$ -- 11011
+cite$ -- 36
+duplicate$ -- 5748
+empty$ -- 5634
+format.name$ -- 977
+if$ -- 11588
 int.to.chr$ -- 0
-int.to.str$ -- 38
+int.to.str$ -- 40
 missing$ -- 0
-newline$ -- 367
-num.names$ -- 740
-pop$ -- 5445
+newline$ -- 385
+num.names$ -- 781
+pop$ -- 5763
 preamble$ -- 1
-purify$ -- 216
+purify$ -- 226
 quote$ -- 0
-skip$ -- 2971
+skip$ -- 3128
 stack$ -- 0
-substring$ -- 674
-swap$ -- 1730
-text.length$ -- 437
-text.prefix$ -- 17
+substring$ -- 689
+swap$ -- 1819
+text.length$ -- 461
+text.prefix$ -- 18
 top$ -- 1
-type$ -- 672
+type$ -- 710
 warning$ -- 0
-while$ -- 350
+while$ -- 367
 width$ -- 0
-write$ -- 348
+write$ -- 365
 (There were 88 error messages)

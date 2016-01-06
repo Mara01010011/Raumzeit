@@ -121,6 +121,25 @@
   \field{year}{1999}
 \endentry
 
+\entry{LQGRovelli}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Carlo~Rovelli}{C.~R.}%
+     {Hal M.~Haggard}{H.~M.~H.}%
+     {und}{u.}%
+     {}{}}%
+  }
+  \strng{namehash}{CRHMHu1}
+  \strng{fullhash}{CRHMHu1}
+  \field{sortinit}{C}
+  \field{title}{Black hole fireworks: quantum-gravity effects outside the
+  horizon spark black to white hole tunneling}
+  \verb{url}
+  \verb http://arxiv.org/abs/1407.0989
+  \endverb
+  \field{year}{2014}
+\endentry
+
 \entry{FrolovNovikov}{article}{}
   \name{author}{2}{}{%
     {{}%
