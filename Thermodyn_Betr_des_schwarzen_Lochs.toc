@@ -2,20 +2,30 @@
 \defcounter {refsection}{0}\relax 
 \select@language {ngerman}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Informationsentropie im Allgemeinen}{3}{section.1}
+\contentsline {section}{\numberline {1}Einleitung}{3}{section.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}In Verbindung mit Verschr\IeC {\"a}nkungsentropie (Entanglement Entropy)}{4}{section.2}
+\contentsline {section}{\numberline {2}Informationsentropie im Allgemeinen}{3}{section.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Das holographische Prinzip}{8}{section.3}
+\contentsline {section}{\numberline {3}In Bezug auf die thermodynamischen Haupts\IeC {\"a}tze}{4}{section.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Evaporation}{9}{section.4}
+\contentsline {subsection}{\numberline {3.1}Nullter Hauptsatz der Thermodynamik}{4}{subsection.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Die Bekenstein-Hawking Entropie}{10}{section.5}
+\contentsline {subsection}{\numberline {3.2}Erster Hauptsatz der Thermodynamik}{4}{subsection.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Wirkungsintegrale}{13}{section.6}
+\contentsline {subsection}{\numberline {3.3}Zweiter Hauptsatz der Thermodynamik}{4}{subsection.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Loop Quantum Gravity (LQG)}{13}{section.7}
+\contentsline {subsubsection}{\numberline {3.3.1}Das holographische Prinzip}{4}{subsubsection.3.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}Reiner Zustand}{13}{appendix.A}
+\contentsline {section}{\numberline {4}Evaporation \text {$\mathsurround \z@ \mathchar "458$}}{5}{section.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B}Zust\IeC {\"a}nde in der Thermodynamik}{13}{appendix.B}
+\contentsline {section}{\numberline {5}Die Entropie des schwarzen Lochs in Formeln}{7}{section.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Weitere Betrachtungen}{7}{section.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1}Wirkungsintegrale}{7}{subsection.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2}Loop Quantum Gravity (LQG)}{7}{subsection.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A}Verschr\IeC {\"a}nkung}{7}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B}Zust\IeC {\"a}nde in der Thermodynamik}{8}{appendix.B}

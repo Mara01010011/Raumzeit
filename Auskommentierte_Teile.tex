@@ -1,0 +1,200 @@
+%\section{In Verbindung mit Verschränkungsentropie (Entanglement Entropy)} %S.87
+%Von einer Verschränkung spricht man bei Korrelationen zwischen zwei Untersystemen. Wir brauchen sie später für die Informationsentropie.
+%		
+%Es seien zwei Untersysteme $A$ und $B$, das Untersystem $A(B)$ wird beschrieben durch ein komplette Menge an kommutierenden Opservablen $\alpha(\beta)$. Die Zusammensetzung beider Systeme wäre in einem reinen Zustand (falls das unbekannt ist, siehe Anhang \ref{ReinerZustandA}) durch die Wellenfunktion $\Psi(\alpha,\beta)$ beschrieben. Sie sind zunächst separiert voneinander, alle Messungen die an $A(B)$ gemacht werden, können mit Hilfe der Dichtematrix $\rho_A(\rho_B)$ beschrieben werden.
+%	
+%Also für ein $\alpha'$ welches in $\alpha$ übergeht und ein $\beta'$ welches in ein $\beta$ übergeht bedeutet das:
+%	\begin{align}
+%		\begin{aligned}
+%		(\rho_A)_{\alpha \alpha'} &=
+%		\sum_{\beta} \Psi^*(\alpha, \beta) \Psi(\alpha', \beta) \\
+%		(\rho_B)_{\beta \beta'} &= 
+%		\sum_{\alpha} \Psi^* (\alpha, \beta) \Psi (\alpha, \beta')
+%		\end{aligned}
+%	\end{align}
+%Wir gehen nun von $\rho_A$ aus, um die Eigenschaften der Dichtematrix zu betrachten (wir könnten auch problemlos von $\rho_B$ ausgehen)
+%	\begin{enumerate}[1)]
+%	\item Die Dichtematrix ist hermitesch
+%		\begin{align}
+%			(\rho_A)_{\alpha \alpha'} &= (\rho_A)^*_{\alpha' \alpha}
+%		\end{align}
+%	\item Die Dichtematrix ist positiv semidefinit, also alle ihre Eigenwerte sind 0 oder positiv.
+%	\item Die Dichtematrix ist auf 1 normalisiert:
+%		\begin{align}
+%			Sp \, \rho = 1
+%		\end{align}
+%	Das bedeutet nun aber, dass die Eigenwerte nur Zahlen zwischen eins und null annehmen können. Wenn ein Eigenwert von $\rho_A$ gleich 1 ist, dann müssen alle Anderen verschwinden, und in dem Falle wäre dann $A$ in einem reinen Zustand. 
+%	Dies geschieht nur, wenn die Wellenfunktion sich wie folgt faktorisieren lässt:
+%		\begin{align}
+%			\Psi (\alpha, \beta) &= \psi_A(\alpha) \psi_B (\beta)
+%		\end{align} 
+%	(hier wäre auch $B$ in einem reinen Zustand)
+%	\item Die nicht-verschwindenden Eigenwerte von $\rho_A$ und $\rho_B$ sind gleich, wenn das Verbundsystem in einem reinen Zustand ist. (Ein Beweis ist zu finden auf S.72 \cite{Revolution})
+%	\end{enumerate}
+%Aus Letzterem folgt folgendes für Verschränkungsentropie:
+%	\begin{align}
+%		S_A = -Sp \, \rho_A \log \rho_A = S_B
+%	\end{align}
+%Und in dem Fall ist die Entropie des kombinierten Systems $S_{A+B} = 0$.
+%
+%Nun betrachten wir ein großes System $\Sigma$, welches in viele kleine, gleiche Untersysteme $\sigma_i$. Wir nehmen an, dass diese Untersysteme schwach miteinander wechselwirken und das ganze System sich in einem reinen Zustand mit Gesamtenergie $E$ befindet, wobei die Untersysteme im Durchschnitt eine Energie $\epsilon$ besitzen. Die Entropie des Gesamtsystems soll verschwindend sein.
+%
+%Die kleinen Untersysteme haben wie aus der Thermodynamik bekannt eine Dichtematrix
+%	\begin{align}
+%		\rho_i = \frac{e^{-\beta H_i}}{Z_i}
+%	\end{align}	
+%($H_i$ Energy des Untersystems)
+%
+%Diese maximiert die Entropie für eine gegebene, mittlere Energie $\epsilon$.
+%Die \textit{grob körnig} (oder auch \textit{Thermalentropie} genannt) des Verbundsystems ist definiert, als die Summe der Entropien aller Untersysteme
+%	\begin{align}
+%		S_{\text{Thermal}} = \sum_i S_i 
+%	\end{align}
+%Diese ist nicht erhalten und wir kennen sie aus thermodynamischem Kontext.
+%
+%Nun interagieren die Untersysteme miteinander. Da die Wellenfunktion dadurch nicht mehr faktorisiert werden kann, sind alle Entropien der Untersysteme nicht null ($S_i \neq 0$)
+%und die \textit{grob körnige} Entropie auch
+%	\begin{align*}
+%		S_{\text{Thermal}} = \sum_i S_i \neq 0
+%	\end{align*}
+%Wir definieren noch eine \textit{fein körnige} Entropie eines Untersystems $\Sigma_1$ von $\Sigma$ welches eine Verschränkungsentropie $S(\Sigma_1)$ von $\Sigma_1$ mit einem übrigbleibenden Untersystem $\Sigma-\Sigma_1$ ist.  
+%
+%In unserem obigen Fall wäre die \textit{fein körnige} Entropie von $\Sigma$ erhalten und gleich null. 
+%
+%Außerdem wird immer gelten:
+%	\begin{align}
+%		S_{\text{Thermal}}(\Sigma_1) > S(\Sigma_1)
+%	\end{align}
+%Das bedeutet, die grob körnige Entropie wird immer größer als die fein Körnige sein.
+%
+%Nun können wir die Information definieren als.
+%	\begin{align}
+%		I = S_{\text{Thermal}} - S
+%	\end{align}
+%Wenn die grob körnige Entropie die Thermalentropie eines Systems ist, wie häufig der Fall, dann ist die Information die Differenz zwischen dieser und der feinkörnigen, also der Verschränkungsentropie.
+%
+%In einem kleinen Untersystem verschwindet die Information, genauso wie in einem kombinierten System $\Sigma$ die Information maximal wird, da die gesamte Thermalentropie vorhanden ist.
+%
+%Was passiert aber in einem mittelgroßen Untersystem? Statt der Erwartung, dass die Information stetig von 0 (für $\sigma_i$) zu $S_{\text{Thermal}}$ (für $\Sigma$) wandert, wird sie für alle Untersysteme kleiner als $\frac{1}{2}$ vom ganzen System verschwindend gering. 
+%
+%Dass Information in Bit mit einem numerischen Wert $\log 2$ gerechnet wird, wissen wir seit Kap. \ref{InfoentropieAllg}. Für ein typisches Untersystem, welches kleiner als die Hälfte von $\Sigma$ ist, ist die Information kleiner als 1 Bit, bei genau der Hälfte beträgt sie ungefähr 1 Bit. In anderen Worten für $\Sigma_1 < \frac{1}{2} \Sigma$ 
+%	\begin{align*}
+%		S(\Sigma_1) &\cong S_{\text{Thermal}}(\Sigma_1) \\
+%		I(\Sigma_1) &\approx 0
+%	\end{align*}
+%Als nächstes betrachten wir ein System mit $\Sigma_1 > \frac{1}{2} \Sigma$. Wir benutzen
+%	\begin{align}
+%		\left.
+%		\begin{aligned}
+%			S(\Sigma - \Sigma_1) &= S(\Sigma_1) \\
+%			S(\Sigma - \Sigma_1) &\cong S_{\text{Thermal}} (\Sigma - \Sigma_1)
+%		\end{aligned}
+%		\right\}
+%		\Rightarrow S(\Sigma_1) = S_{\text{Thermal}} (\Sigma - \Sigma_1)
+%	\end{align}
+%Die grobe Entropie von $\Sigma - \Sigma_1$ wird in der Ordnung $(1- f) S_{\text{Thermal}}(\Sigma)$ sein, wobei $f$ der Anteil aller einfacher Freiheitsgrade\footnote{Ein einzelner einfacher Freiheitsgrad repräsentiert ein einzelnen Bit an Information. Mit einem Freiheitsgrad ist so etwas wie ein Spin oder die An- bzw. Abwesenheit eines Fermions gemeint.} ist, die in $\Sigma_1$ vorkommen. 
+%
+%Die Information ist nun
+%	\begin{align}
+%		\begin{aligned}
+%		I (\Sigma_1) &= S_{\text{Thermal}}(\Sigma_1) - S(\Sigma_1) \\
+%		&= f\, S_{\text{Thermal}} (\Sigma) - (1 - f)S_{\text{Thermal}}(\Sigma) \\
+%		&= (2f - 1) S_{\text{Thermal}}(\Sigma) 
+%		\end{aligned}
+%	\end{align}
+%
+%Um später auf die Verdunstung schwarzer Löcher und deren Information zurückzukommen, werden wir jetzt erstmal ein Gedankenexperiment machen, in der noch die bekannten Gesetze der Physik gelten.
+%
+%Wir stellen uns eine Box mit Wenden an denen alles reflektiert wird. Innerhalb liegt eine Bombe die explodieren kann. Außerdem hat sie noch ein sehr kleines Loch, aus dem Strahlung entweichen kann.
+%Das gesamte System $\Sigma$ ist aufgeteilt in das innere Untersystem $B$ und in das gesamte Äußere $A$ der Box. 
+%\begin{figure} [!b]
+%	\begin{center}
+%		\includegraphics[width=0.5\textwidth]{Box}
+%	\end{center}
+%	\caption{\textit{Oben} ist die Von Neumann Entropie von $\Sigma_1$ gegen die Freiheitgrade aufgetragen. In der \textit{Mitte} ist es die Feinkrönige Entropie von $\Sigma_1$ und \textit{unten} ist es die Information. (aus \cite{Revolution})}
+%\end{figure}
+%
+%Anfangs ist die Bombe im Grundzustand und die Entropie von $B$ ist verschwindend gering.
+%Sobald die Bombe hoch geht setzt sie thermische Strahlung frei, welche die Box füllt. Die feinkörnige Entropie ändert sich nicht, aber die thermische Entropie steigt. Da noch kein Photon entweichen konnte, ändert sich auch nicht an der äußeren Entropie.
+%	\begin{align}
+%		\begin{aligned}
+%			S_{\text{Thermal}} (B) &\neq 0 \\
+%			S(B) = 0 &~~~ S(A) = 0
+%		\end{aligned}
+%	\end{align}
+%Als nächstes werden die Photonen langsam hinaus strömen mit dem Ergebnis, dass das Innere und Äußere der Box verschränken. Die Verschränkungsentropie ($A$ und $B$ haben die Selbe) steigt, während die thermische Entropie sinkt. 
+%	\begin{align}
+%	\begin{aligned}
+%	S_{\text{Verschränkung}} &\neq 0 \\
+%	S_{\text{Thermal}} (B) \neq 0 &~~~ S_{\text{Thermal}}(A) \neq 0
+%	\end{aligned}
+%	\end{align}
+%Wenn alle Photonen die Box verlassen, dann wird sie wieder im Grundzustand sein und die verschiedenen Entropien werden zurück auf null gehen.
+%Nun hat die grobkrönige Entropie des Äußeren ihr Maximum erreicht.
+%Das zweite thermodynamische Gesetz verlangt, dass $S_{\text{Thermal}}(A)$ kurz nach der Explosion größer als $S_{\text{Thermal}}(B)$ ist. Die Verschränkungsentropie von $A$ muss allerdings verschwinden, weil auch die Verschränkung null wird. 
+%
+%Die eigentliche Verschränkungsentropie müsste aber kleiner sein als die thermische Entropie von $A$ oder $B$. Ab der Stelle $S_{\text{Thermal}}(A) = S_{\text{Thermal}}$ beginnt die Information außerhalb der Box zu steigen. Davor hat zwar Energie die Box verlassen, aber noch keine Information. Wenn also etwa die Hälfte der Entropie der Photonen die Box verlassen kommt zum ersten Mal Information nach draußen.
+%
+%Das bedeutet, Informationserhaltung gilt in konventionellen Quantensystemen, das Strahlungsfeld muss am Ende außerhalb der Box also in einem reinen Zustand sein.
+%	
+%\FloatBarrier
+
+
+%\section{Die Bekenstein-Hawking Entropie} \label{BHEntropie}
+%Zunächst betrachten wir Gründe, warum ein schwarzes Loch Entropie besitzen muss. 
+%	\begin{itemize}
+%		\item Zum einen Form es sich normalerweise durch kollabierende Materie, die eine 	bestimmte Masse haben oder Strahlung abgeben. Beide enthalten 		Entropie. Wir können nach der Entstehung des schwarzen Lochs nicht mehr über den Horizont hinweg sehen, also können wir keine thermodynamische Aussage auf Grundlage der zuvor kollabierten Materie machen, weil sie unbeobachtbar ist. Aber mit einer dem schwarzen Loch zugeordneten Entropie ist das möglich.
+%		
+%		\item Ein schwarzes Loch kann mich ein paar wenigen Parametern beschrieben werden, nämlich Masse, elektrische Ladung und Drehmoment. Da für eine beliebige Wahl dieser Zahlen eine Menge Möglichkeiten bestehen, wie das Schwarze Loch entstanden sein könnte, stimmen viele inneren Zustände mit ihm überein. Das passt auch zur Thermodynamik, in der viele Mikrozustände einen Makrozustand bilden können. Genau diesen weiß die Entropie zu beschreiben, deshalb muss ein schwarzes Loch diese haben. 
+%		
+%		\item Das Schwarze Loch blockt alle Signale und verhindert somit, dass keine Information über es an die Außenwelt gelangen kann. So gesehen kann man sagen, dass es Information versteckt, die aber durch die Entropie gemessen werden kann. Deshalb macht es Sinn dem schwarzen Loch eine Entropie zuzuschreiben. 
+%	\end{itemize}
+%
+%	\subsection*{Was wir durch diese Entropie gewinnen}
+%	Nun folgen ein paar Interpretationen der Entropie der schwarzen Löcher:
+%	
+%	\begin{itemize}
+%		\item [~] \textit{Die Entropie eine schwarzen Lochs zählt die inneren Zustände der Masse und Gravitation.}
+%	\end{itemize}
+%	Wie zuvor bereits erwähnt, gibt es viele Möglichkeiten, wie ein bestimmtes schwarze Loch mit fester Masse, Ladung und Drehmoment entstanden ist. Die Zustände der Materie werden den Mikrozuständen dargestellt. Für genauere Beisiele siehe \cite{FrolovNovikov}.
+%	
+%	\begin{itemize}
+%		\item [~] \textit{Die Entropie des schwarzen Lochs ist die Entropie der Verschränkung zwischen Freiheitsgraden innerhalb und außerhalb des Horizonts.}
+%	\end{itemize}
+%	Die Freiheitsgrade des Quantenfeldes außerhalb eines schwarzen Lochs, welches bei einem Kollaps entstanden ist, müsste eigentlich mit den Inneren verschränkt sein. Letzteres ist für den Beobachter leider unsichtbar. Jegliche Information hinter dem Horizont über die Freiheitsgrade ist verschwunden, deshalb kann könnte man einen Mischzustand messen, auch wenn er ursprünglich rein war. Aber dieser ist verbunden mit einer Verschränkungsentropie, die wie von Bombelli usw \cite{BombelliKouLeeSorkin} und Srednicki \cite{Srednicki} gezeigt, proportional zur Horizontenfläche ist.
+%	
+%	\begin{itemize}
+%		\item [~] \textit{Die Entropie des schwarzen Lochs zählt die Gravitationszustände am Horizont.}
+%	\end{itemize}
+%	Es wurde vorgeschlagen, dass die gesuchten Zustände Gravitationsfreiheitsgrade sind, die sich am Horizont des schwarzen Lochs ansiedeln. Ein Beispiel für diesen Ansatz machte Carlip \cite{Carlip}, wo er auch Gleichung \eqref{SHentropie} herleitet.
+%	
+%	\begin{itemize} 
+%		\item [~] \textit{Die Entropie des schwarzen Lochs ist eine erhaltene Größe verbunden mit Koordinateninvarianz der Gravitationswirkung.}
+%	\end{itemize}
+%	Diese Näherung ist von Wald \cite{Wald} gemacht worden. Dieser sagt aus, dass die Entropie schwarzer Löcher Noetherladung der Diffeomorphismus Symmetrie ist.  Hieraus kann man wieder Gleichung \eqref{SHentropie} ableiten, wenn die Gravitationswirkung in erster Ordnung der Krümmung vorliegt. 
+%	
+%	\begin{itemize}
+%		\item [~] \textit{Die Entropie des schwarzen Lochs ist die thermische Entropie der Quanten, welche die thermische Atmosphere des schwarzen Lochs formen.}
+%	\end{itemize}
+%	Hier geht es unter anderem um ein Konzept mit einer Mauer, die verhindert, dass die Atmosphäre und der Horizont sich berühren, wodurch die Entropie unendlich groß wird.  Dieses spezielle Beispiel ist hier \cite{Hooft} zu finden, außerdem haben sich mit dem Atmosphärenproblem auch noch Thorne und Zurek \cite{ThorneZurek} beschäftigt.
+%	
+%	\begin{itemize}
+%		\item [~] \textit{Die Entropie des schwarzen Lochs zählt die Zustände oder Anregungen eines fundamentalen Strings.}
+%	\end{itemize}
+%	Die Strings aus der String Theorie können verschiedene Anregungen haben, deshalb gibt es auch eine Vielzahl von Stringzuständen. Deshalb haben sie auch eine Entropie, die im Gegensatz zum schwarzen Loch proportional zur Masse der Strings ist. Bowick, Smolin und Wijewardhana \cite{BowickSmolinWijewardhana} haben ein Argument vorgebracht, in dem die Stringkopplungskonstante $g$ sehr langsam verkleinert wird, sodass es möglich ist, ein schwarzes Loch auf Stringgröße zu schrumpfen. Dann wären ein String und ein schwarzes Loch bis auf die Konstante $g$ sich sehr ähnlich.
+%	
+%	Susskind \cite{Susskind} hat gezeigt, dass es eine eindeutige Beziehung zwischen String Zuständen und schwarzen Löchern gibt, bei der sie die gleiche Entropie haben. Von Strominger und Wafa \cite{StromingerWafa} wurde dies in einen Kontext mit einem fünf dimensionalen extremen schwarzen Loch eingebettet. 
+%	
+%	\begin{itemize}
+%		\item [~] \textit{Die Entropie des schwarzen Lochs ist äquivalent zur thermischen Entropie der an der Grenze der Raumzeit zum schwarzen Loch angesiedelten Strahlung.}
+%	\end{itemize}
+%	Hierbei geht es um die AdS/CFT (Anti-deSitter/conformal field theory) Übereinstimmung, welche eine Abbildung zwischen Gravitationsfreiheitsgraden in einer speziellen Raumzeit und Feldfreiheitsgraden am Rand bildet. 
+%	Witten \cite{Witten} zeigte, dass die Entropie eines schwarzen Lochs die sich im Großteil des Anti-deSitter Raumes aufhält, gleich der thermischen Strahlung ist, die sich an seinem Rand befindet. 
+%
+
+%\section{Reiner Zustand} \label{ReinerZustandA}
+%Sei $\rho$ die \textit{Dichtematrix} welche ein Quantenzustand im Hilbertraum ist $\Hil$. Quantenzustände werden allgemein mit Operatoren dargestellt, hier: $\rho$ ist ein nicht negativer, hermitescher Operator mit Spur 1. Wenn es in der Form
+%	\begin{equation}
+%		\rho=\ket{\psi} \bra{\psi}
+%	\end{equation}
+%geschrieben werden kann, dann heißt er \textit{rein}. Wenn ein Zustand nicht rein ist, dann ist er \textit{gemischt}.
