@@ -47,7 +47,7 @@
 \section{Einleitung}
 Was ist Thermodynamik?
 
-\section{Informationsentropie im Allgemeinen \checkmark} \label{InfoentropieAllg}
+\section{Informationsentropie im Allgemeinen} \label{InfoentropieAllg}
 Zunächst ein kurzer Einblick, um welche Art von Entropie es sich hier handeln wird. Ludwig Boltzmann hatte festgestellt, dass eine Proportionalität zwischen der Entropie $S$ und $\log W$ herrscht, wobei $W$ die Wahrscheinlichkeit darstellt. Der zugehörige Proportionalitätsfaktor $k$ ist die Boltzmann-Konstante.
 	\begin{align}
 		S &= k \log W
@@ -99,7 +99,7 @@ Wir machen nun zwei Zahlenbeispiele zur Veranschaulichung:
 	\end{itemize}
 (siehe auch \cite{Brenig})
 
-\section{In Bezug auf die thermodynamischen Hauptsätze \checkmark}
+\section{In Bezug auf die thermodynamischen Hauptsätze}
 	\subsection{Nullter Hauptsatz der Thermodynamik}
 %Temperatur müssen wir definieren können
 	Wir beginnen mit der Erklärung der Hawkingstrahlung. Diese fand Steven Hawking \cite{ParticleCreation}, als er den gekrümmten Raum in euklidische Koordinaten transformierte (z.B. Minkowski-Raum). Hierbei entstanden im Grundzustand Entartungen, die störungstheoretisch entwickelt werden müssen. 
@@ -188,7 +188,7 @@ Wir machen nun zwei Zahlenbeispiele zur Veranschaulichung:
 %bilder zwei schwarze löcher vereinigen M_3 > M_2 + M_1 usw.
 
 \FloatBarrier
-\section{Evaporation \checkmark} \label{evaporation}
+\section{Evaporation} \label{evaporation}
 
 Wie wir bereits wissen, besitzt ein großes schwarzes Loch für einen Beobachter in großer Ferne eine Temperatur (siehe Gleichung \eqref{HawkingTemp}) besitzt. Dies hat eine Wärmestrahlung zur Folge also ein Energieverlust.
 
@@ -220,7 +220,19 @@ Wem das nicht gefällt, der würde eher für einen dritten Punkt stimmen:
 	
 \section{Weitere Betrachtungen}
 	\subsection{Wirkungsintegrale}
-	\subsection{Loop Quantum Gravity (LQG) \checkmark}	%geht nicht in ART, CPT falsch
+	Zur Berechnung der thermodynamischen Potentiale benötigt man in der Thermodynamik eine sogenannte Zustandssumme. Diese kann mit einem euklidischen Pfadintegral berechnet werden, welche alle möglichen Wege, die ein Teilchen einschlagen kann, unterschiedlich stark berücksichtigt. Deshalb ergibt sich aus der Summe aller gewichteten Pfade zwischen zwei Orten eine Gesamtwahrscheinlichkeit des Ortsübergangs.
+	
+	Die gesuchte Zustandssumme ist von der Gestalt 
+		\begin{align}
+			Z = \int \diff [\Phi] \exp \left(- \frac{I_E}{\hbar}\right) 
+			\simeq \exp \left(- \frac{I_{E,B}}{\hbar}\right)
+		\end{align}
+	ist. Wobei $I_E$ die euklidische Wirkung ist, $\Phi(x,t)$ ist das Feld, welches wir betrachten. (für weiteres Verständnis siehe \cite{Gebhardt} und \cite{Pfadintegral})
+	\marginpar{das elektrische Feld?}
+	
+	In Termen der höheren Ordnung entstehen Korrekturterme, welche die Fluktuationen der Felder und der  Metrik mit berücksichtigen.
+	
+	\subsection{Loop Quantum Gravity (LQG)}	%geht nicht in ART, CPT falsch
 Die Loop-Quantengravitation (Loop = Schleifen) ist eine Konkurrenztheorie der Stringtheorie und nimmt keine Singularität in der Mitte des schwarzen Lochs an, sondern beinhaltet die Theorie, dass es weiße Löcher gibt, die sich wie schwarze Löcher verhalten, nur das die Zeit rückwärts läuft. 
 
 Ein einlaufendes Wellenpaket würde dann, während es einem `Quantum bounce' (siehe Appendix
@@ -272,4 +284,101 @@ Viele Mikrozustände bilden einen Makrozustand, der durch Parameter dargestellt 
 \newpage
 \printbibliography
 %\printindex
+%@article{Mukhanov,
+%AUTHOR = {Mukhanov, V.F.}
+%JOURNAL = {Foundations of Physics},
+%Volume = 33,
+%Pages = 271,
+%YEAR = 2003
+%}
+%@article{Srednicki,
+%	AUTHOR = {Srednicki, M.},
+%	JOURNAL = {Class. Quantum Gravity},
+%	Volume = 71,
+%	Pages = 66,
+%	YEAR = 1993,
+%	URL = {http://xxx.lanl.gov/abs/hep-th/9303048}
+%}
+%@article{StromingerWafa,
+%	AUTHOR = {Strominger, A. and Wafa, C.},
+%	JOURNAL = {Physics Letters B},
+%	Volume = 379,
+%	Pages = 99,
+%	YEAR = 1996,
+%	URL = {http://xxx.lanl.gov/abs/hep-th/9601029}
+%}
+%@article{FrolovNovikov,
+%	AUTHOR = {Frolov, V. and Novikov, I.},
+%	TITLE = {Dynamical Origin of the Entropy of a Black Hole},
+%	JOURNAL = {Physical Review D},
+%	YEAR = 1993,
+%	VOLUME = 48,
+%	PAGES = 4545,
+%	URL = {http://xxx.tau.ac.il/abs/gr-qc/9309001}
+%}
+%@article{BombelliKouLeeSorkin,
+%	AUTHOR = {Bombelli, L., Koul, R., Lee, J. and Sorkin, R.},
+%	JOURNAL = {Physical Review D},
+%	Volume = 34,
+%	pages = 373,
+%	year = 1986,
+%	URL = {http://dx.doi.org/10.1103/PhysRevD.34.373}
+%}
+%@article{BowickSmolinWijewardhana,
+%	AUTHOR = {Bowick, M., Smolin, L. and Wijewardhana, L.C.R.},
+%	JOURNAL = {Gen. Rel. Grav.},
+%	VOLUME = 19,
+%	PAGES = 113,
+%	YEAR = 1987
+%}
+%@article{Carlip,
+%	AUTHOR = {Carlip, S.},
+%	JOURNAL = {Class. Quantum Gravity},
+%	Volume = 16,
+%	Pages = 3327,
+%	YEAR = 1999,
+%	URL = {http://xxx.lanl.gov/abs/gr-qc/9906126}
+%}
+%@article{Wald,
+%	AUTHOR = {Wald, R.M.},
+%	JOURNAL = {Physical Review D},
+%	Volume = 48,
+%	Pages = 3427,
+%	YEAR = 1993,
+%	URL = {http://xxx.lanl.gov/abs/gr-qc/9307038}
+%}
+%@article{Witten,
+%	AUTHOR = {Witten, E.},
+%	JOURNAL = {Advances in Theoretical and Mathematical Physics},
+%	Volume = 2,
+%	Pages = 253,
+%	YEAR = 1998,
+%	URL = {http://xxx.lanl.gov/abs/hep-th/9802150}
+%}
+%@article{ThorneZurek,
+%	AUTHOR = {Thorne, K. S. and Zurek, W. H.},
+%	JOURNAL = {Physical Review Letters},
+%	Volume = 54,
+%	Pages = 2171,
+%	YEAR = 1985,
+%}
+%@article{Susskind,
+%	AUTHOR = {Susskind, L.},
+%	TITLE = {Some speculations about black hole entropy in string theory},
+%	JOURNAL = {unpublished},
+%	YEAR = 1993,
+%	URL = {http://xxx.lanl.gov/abs/hep-th/9309145}
+%}
+%@article{Hooft,
+%	AUTHOR = {'t Hooft, G.},
+%	JOURNAL = {Nuclear Physics B},
+%	Volume = 256,
+%	Pages = 726,
+%	YEAR = 1985,
+%	JOURNAL = {International Journal of Modern Physics A},
+%	Volume = 1,
+%	Pages = 4623,
+%	YEAR = 1996,
+%	URL = {http://xxx.lanl.gov/abs/gr-qc/9607022}
+%}
 \end{document}

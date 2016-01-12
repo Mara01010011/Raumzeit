@@ -77,6 +77,22 @@
   \field{year}{2014}
 \endentry
 
+\entry{Pfadintegral}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Dullweber}{D.}%
+     {Andreas}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DA1}
+  \strng{fullhash}{DA1}
+  \field{sortinit}{D}
+  \field{title}{Pfadintegralmethoden}
+  \field{journaltitle}{Diplomarbeit}
+  \field{year}{1995}
+\endentry
+
 \entry{Gebhardt}{article}{}
   \name{author}{1}{}{%
     {{}%

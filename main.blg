@@ -20,53 +20,48 @@ I was expecting a `,' or a `}'---line 11 of file mybib.bib
  :  PAGES = {61-74}}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 215 of file mybib.bib
- :  
- :  JOURNAL = {Foundations of Physics},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Biblatex version: 2.8
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 9 entries,
+You've used 10 entries,
             6047 wiz_defined-function locations,
-            1180 strings with 9146 characters,
-and the built_in function-call counts, 23027 in all, are:
-= -- 831
-> -- 771
-< -- 221
-+ -- 206
-- -- 262
-* -- 1474
-:= -- 1522
+            1186 strings with 9223 characters,
+and the built_in function-call counts, 25511 in all, are:
+= -- 914
+> -- 849
+< -- 246
++ -- 221
+- -- 286
+* -- 1628
+:= -- 1659
 add.period$ -- 0
-call.type$ -- 9
-change.case$ -- 90
+call.type$ -- 10
+change.case$ -- 99
 chr.to.int$ -- 34
-cite$ -- 16
-duplicate$ -- 2562
-empty$ -- 2538
-format.name$ -- 433
-if$ -- 5298
+cite$ -- 18
+duplicate$ -- 2863
+empty$ -- 2828
+format.name$ -- 481
+if$ -- 5872
 int.to.chr$ -- 0
-int.to.str$ -- 19
+int.to.str$ -- 21
 missing$ -- 0
-newline$ -- 176
-num.names$ -- 352
-pop$ -- 2601
+newline$ -- 192
+num.names$ -- 393
+pop$ -- 2921
 preamble$ -- 1
-purify$ -- 102
+purify$ -- 112
 quote$ -- 0
-skip$ -- 1428
+skip$ -- 1585
 stack$ -- 0
-substring$ -- 370
-swap$ -- 794
-text.length$ -- 223
-text.prefix$ -- 8
+substring$ -- 383
+swap$ -- 883
+text.length$ -- 248
+text.prefix$ -- 9
 top$ -- 1
-type$ -- 330
+type$ -- 368
 warning$ -- 0
-while$ -- 189
+while$ -- 205
 width$ -- 0
-write$ -- 166
-(There were 2 error messages)
+write$ -- 181
+(There was 1 error message)
