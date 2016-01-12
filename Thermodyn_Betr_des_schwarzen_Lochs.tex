@@ -105,14 +105,40 @@ Wir machen nun zwei Zahlenbeispiele zur Veranschaulichung:
 	Wir beginnen mit der Erklärung der Hawkingstrahlung. Diese fand Steven Hawking \cite{ParticleCreation}, als er den gekrümmten Raum in euklidische Koordinaten transformierte (z.B. Minkowski-Raum). Hierbei entstanden im Grundzustand Entartungen, die störungstheoretisch entwickelt werden müssen. 
 	
 	Anschaulich bedeutet dies, dass zwei verschränkte Teilchen (siehe Appendix \ref{Verschränkung}), die durch Vakuumfluktuation am Horizont des schwarzen Lochs entstehen so getrennt werden, dass das mit negativer Energie in das schwarze Loch hinein fällt, und das, welches eine positive Energie besitzt ins Unendliche im Raum verschwindet. 
-
-%Temperaturgleichgewicht: so viel abstahlen wie aufnehmen -> nullter HS der Thermodynamik
-%SH beschleunigung auf der Oberfläche
+	Genau letzteres sorgt für eine Hawkingstrahlung und die Hawkingtemperatur wie später in Kap \ref{evaporation} Gleichung \eqref{HawkingTemp} zu sehen.
+	
+	Nun besagt der nullte Hauptsatz der Thermodynamik, dass das schwarze Loch nur mit seiner Umwelt in thermodynamisches Gleichgewicht kommen kann, wenn es genauso viel Temperatur abstrahlt, wie es aufnimmt. 
+	
+	Dies hat eine Beschleunigung an der Oberfläche zum Mittelpunkt des schwarzen Lochs zur Folge. \marginpar{Bitte nochmal erklären}
 
 	\subsection{Erster Hauptsatz der Thermodynamik}
 %Innere Energie dU
+	Der erste Hauptsatz der Thermodynamik besagt, dass die Änderung der inneren Energie gleich der Änderung der Wärme zusammen mit der Änderung der Arbeit ist, vorausgesetzt, es handle sich um ein geschlossenes System. Er steht somit für Energieerhaltung.
+		\begin{align}
+			\Delta U = \Delta Q + \Delta W
+		\end{align}
+	In unserem Fall wäre es nützlich, dies in der Form
+		\begin{align}
+			\diff E = T\diff S + \diff W
+		\end{align}
+	zu schreiben. 
+	
+	Tatsächlich findet man eine analoge Gleichung für schwarze Löcher.
+	Dazu verwenden wir die Oberfläche zusammengedrückten mit einem ursprünglichen Radius gleich dem Schwarzschildradius, welche wie wir später abermals sehen werden, proportional zur Entropie ist (siehe Kap. \ref{zweiterHS}), welche durch die Kerr-Neumann Metrik und geschickt gewählten Koordinaten namens Boyer-Lindquist Koordinaten beschrieben wird. 
+	\marginpar{bitte Referenz angeben}
+	
+	Da ich hier viele Formeln vermeiden möchte, bitte sehen Sie für Genaueres z.B. \cite{BekensteinHawking} oder \cite{Gebhardt}.
+	
+	Das Endergebnis ist von der Gestalt
+		\begin{align}
+			\diff (Mc^2) = \frac{\kappa}{8 \pi G} \diff A + \Omega \diff J - \Phi \diff q
+		\end{align} 
+	Hier bei wurde $E = Mc^2$ benutzt, außerdem sind die zwei letzten Summanden der Drehimpuls und die elektrische Feldstärke. $\kappa$ ist auf dem Schwarzschildradius eine Konstante und wird allgemein als Oberflächen-Schwerebeschleunigung bezeichnet. (siehe \cite{Gebhardt})
+	\\
+	
+	Dies bedeutet nun, dass die Änderung der Masse proportional zur Summe der Änderung der Fläche und der Änderung von Drehimpuls und elektrischem Feld ist. Es gilt also Massenerhaltung. \marginpar{stimmt das?}
 
-	\subsection{Zweiter Hauptsatz der Thermodynamik}
+	\subsection{Zweiter Hauptsatz der Thermodynamik} \label{zweiterHS}
 %zweiter HS Fläche proto Entropie, hier holographisches Prinzip
 %ganzes Universum, sehr verallgemeinert worden (Bousseau)
 %bilder zwei schwarze löcher vereinigen M_3 > M_2 + M_1 usw.
@@ -132,19 +158,19 @@ Wir machen nun zwei Zahlenbeispiele zur Veranschaulichung:
 		\begin{center}
 			\includegraphics[width=0.6\textwidth]{BHentropy1}
 		\end{center}
-		\caption{Zweidimensionale Oberfläche des Horizonts aufgeteilt in Planck Einheiten. Die Entropie hat allerdings eine Einheit von 4 solchen Planckflächen für ein Bit. Siehe \ref{BHEntropie}. (aus \cite{BekensteinHawking})}
+		\caption{Zweidimensionale Oberfläche des Horizonts aufgeteilt in Planck Einheiten. Die Entropie hat allerdings eine Einheit von 4 solchen Planckflächen für ein Bit. Siehe (\ref{BHentropie}). (aus \cite{BekensteinHawking})}
 	\end{figure} 
 
 \FloatBarrier
-\section{Evaporation \checkmark}
+\section{Evaporation \checkmark} \label{evaporation}
 Stephen Hawking hat in seinem Paper \cite{ParticleCreation} gezeigt, dass ein großes schwarzes Loch für einen Beobachter in großer Ferne eine Temperatur besitzt:
-	\begin{align}
+	\begin{equation}\label{HawkingTemp} 
 		T_{\text{Hawking}} = \frac{\hbar c^3}{8 \pi GM}
-	\end{align}
+	\end{equation}
 Nun bedeutet dies eine gewisse Wärmestrahlung, welche von jedem schwarzen Loch ausgeht also ein Energieverlust. Dank Einstein wissen wir, dass Masse und Energie sich gleichen, wenn man c = 1 setzt. Jedes schwarze Loch verliert also im Lauf der Zeit an Masse, bis es verdampft. Dieser Vorgang wird als Evaporation bezeichnet. Nach einigen Rechnungen, siehe z.B. \cite{JerusalemsLectures}, erfahren wir, dass
 	\begin{align}
 		t_{\text{evap}} \sim G^2 M^3
-	\end{align}
+	\end{align} 
 Ein sonnenschweres schwarzes Loch würde nach etwa $10^{66}$ Jahren verdampft sein (zum Vergleich, das alter unseres Universums wird auf $13,8 \cdot 10^{9}$ Jahre geschätzt). Man hätte ein riesen Problem dies nachzuweisen, vielleicht wenn wir herausfinden, wie wir kleinere schwarze Löcher produzieren können. 
 
 Aber was passiert mit der Entropie?
@@ -178,7 +204,7 @@ Wem das nicht gefällt, der würde eher für einen dritten Punkt stimmen:
 			T_{\text{Hawking}} &= \frac{\hbar c^3}{8 \pi G M}
 		\end{align}
 	und durch ersetzen von $E = Mc^2$, erhalten wir
-		\begin{align} \label{SHentropie}
+		\begin{align} \label{BHentropie}
 			S_{BH} &= \frac{c^3 A}{4 G \hbar} = \frac{A}{4 L_P^2} 
 		\end{align}
 	Der Horizont ist an Fläche $A$, welche eine Kugeloberfläche um das schwarze Loch mit dem Schwarzschildradius bildet:
@@ -194,7 +220,7 @@ Wem das nicht gefällt, der würde eher für einen dritten Punkt stimmen:
 	\subsection{Loop Quantum Gravity (LQG)}	%geht nicht in ART, CPT falsch
 Die Loop-Quantengravitation (Loop = Schleifen) ist eine Konkurrenztheorie der Stringtheorie und nimmt keine Singularität in der Mitte des schwarzen Lochs an, sondern beinhaltet die Theorie, dass es weiße Löcher gibt, die sich wie schwarze Löcher verhalten, nur das die Zeit rückwärts läuft. 
 
-Ein einlaufendes Wellenpaket würde dann, während es einem 'Quantum bounce' durchmacht, durch das schwarze Loch in ein weißes Loch hineintunneln. Die Metrik, die Rovelli und Haggard \cite{LQGRovelli} aufgestellt haben, werde ich hier nun kurz anschneiden.
+Ein einlaufendes Wellenpaket würde dann, während es einem `Quantum bounce' durchmacht, durch das schwarze Loch in ein weißes Loch hineintunneln. Eine Metrik dazu haben Rovelli und Haggard \cite{LQGRovelli} aufgestellt. Die Folge für die Entropie des schwarzen Lochs sind am Ende `nur' Korrekturterme.
 %Hier kommen damit korrekturen 
 
 %nur Quantenmechanik sagen, Information kann nicht verloren geht
