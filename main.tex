@@ -47,7 +47,7 @@
 \section{Einleitung}
 Was ist Thermodynamik?
 
-\section{Informationsentropie im Allgemeinen} \label{InfoentropieAllg}
+\section{Informationsentropie im Allgemeinen \checkmark} \label{InfoentropieAllg}
 Zunächst ein kurzer Einblick, um welche Art von Entropie es sich hier handeln wird. Ludwig Boltzmann hatte festgestellt, dass eine Proportionalität zwischen der Entropie $S$ und $\log W$ herrscht, wobei $W$ die Wahrscheinlichkeit darstellt. Der zugehörige Proportionalitätsfaktor $k$ ist die Boltzmann-Konstante.
 	\begin{align}
 		S &= k \log W
@@ -87,11 +87,11 @@ Dass unserer mittlerer Informationsgehalt unserer Entropie von \eqref{Informatio
 Wir machen nun zwei Zahlenbeispiele zur Veranschaulichung:
 	\begin{itemize}
 		\item[\textit{1.\,Beispiel:}] Sei $N=2, \rho_1 = \rho_2= \frac{1}{2}$ was sein könnte: Ein Teilchen hält sich mit gleicher Wahrscheinlichkeit in der linken oder rechten Hälfe eines Kastens auf, oder Zahl und Wappen für ein Münzwurf.
-		Es benötigt Ja-Nein-Frage, um herauszufinden, wo das Teilchen liegt oder wie herum die Münze gefallen ist.
+		Es benötigt genau eine Ja-Nein-Frage, um herauszufinden, wo das Teilchen liegt oder wie herum die Münze gefallen ist.
 			\begin{align*}
 				I = \mathrm{ld}(2) = 1 \,\mathrm{bit}
 			\end{align*}
-		Ein bit ist die Einheit für Information.
+		Ein Bit ist die Einheit für Information.
 		\item[\textit{2.\,Beispiel:}]Sei $N=6, \rho_n = \frac{1}{6}$, wobei die Ereignisse $E_n$ die Seiten eines Würfels sein könnten, der Informationsgehalt
 			\begin{align*}
 				I = \mathrm{ld}(6) &= 2,58 \,\mathrm{bit}
@@ -99,7 +99,7 @@ Wir machen nun zwei Zahlenbeispiele zur Veranschaulichung:
 	\end{itemize}
 (siehe auch \cite{Brenig})
 
-\section{In Bezug auf die thermodynamischen Hauptsätze}
+\section{In Bezug auf die thermodynamischen Hauptsätze \checkmark}
 	\subsection{Nullter Hauptsatz der Thermodynamik}
 %Temperatur müssen wir definieren können
 	Wir beginnen mit der Erklärung der Hawkingstrahlung. Diese fand Steven Hawking \cite{ParticleCreation}, als er den gekrümmten Raum in euklidische Koordinaten transformierte (z.B. Minkowski-Raum). Hierbei entstanden im Grundzustand Entartungen, die störungstheoretisch entwickelt werden müssen. 
@@ -130,7 +130,7 @@ Wir machen nun zwei Zahlenbeispiele zur Veranschaulichung:
 	Da ich hier viele Formeln vermeiden möchte, bitte sehen Sie für Genaueres z.B. \cite{BekensteinHawking} oder \cite{Gebhardt}.
 	
 	Das Endergebnis ist von der Gestalt
-		\begin{align}
+		\begin{align} \label{1HS}
 			\diff (Mc^2) = \frac{\kappa}{8 \pi G} \diff A + \Omega \diff J - \Phi \diff q
 		\end{align} 
 	Hier bei wurde $E = Mc^2$ benutzt, außerdem sind die zwei letzten Summanden der Drehimpuls und die elektrische Feldstärke. $\kappa$ ist auf dem Schwarzschildradius eine Konstante und wird allgemein als Oberflächen-Schwerebeschleunigung bezeichnet. (siehe \cite{Gebhardt})
@@ -138,37 +138,61 @@ Wir machen nun zwei Zahlenbeispiele zur Veranschaulichung:
 	
 	Dies bedeutet nun, dass die Änderung der Masse proportional zur Summe der Änderung der Fläche und der Änderung von Drehimpuls und elektrischem Feld ist. Es gilt also Massenerhaltung. \marginpar{stimmt das?}
 
-	\subsection{Zweiter Hauptsatz der Thermodynamik} \label{zweiterHS}
+\subsection{Zweiter Hauptsatz der Thermodynamik} \label{zweiterHS}
+	Bevor man auf die obige Gleichung \ref{1HS} kommt, wird man feststellen, dass Masse, elektrische Ladung und Drehmoment in der gleichen Kombination immer proportional zur Oberfläche des schwarzen Lochs sind. 
+	Außerdem haben sowohl Hawking \cite{ParticleCreation} also auch Misner, Thorne und Wheeler \cite{MisnerThorneWheeler} gezeigt, dass der Ereignishorizont eines schwarzen Lochs nicht kleiner werden kann, meistens wird er sogar größer. \marginpar{ich bin mir nicht immer ganz sicher in welchem Paper Hawking was gesagt hat}
 	
-%zweiter HS Fläche proto Entropie, hier holographisches Prinzip
-%ganzes Universum, sehr verallgemeinert worden (Bousseau)
-%bilder zwei schwarze löcher vereinigen M_3 > M_2 + M_1 usw.
-	\subsubsection{Das holographische Prinzip}
-	Wir befinden uns in der String Theorie in einem flachen Raum. Wir schauen nun auf eine Region $\Gamma$ in so Einem. 
+	Diese Oberfläche verhält sich sozusagen wie die thermodynamische Entropie in geschlossenen Systemen. 
 	
-	Die maximale Entropie aller physikalischen Systeme, die in $\Gamma$ hinein passen, sind proportional zur Fläche des Rands $\partial \Gamma$, welche in Planck Einheiten aufgeteilt ist. 
+	Durch die Hawkingtemperatur und der Definition von Temperatur in der Thermodynamik
+	\begin{align} \label{HawkingTemp}
+	\frac{\diff S}{\diff E} &= \frac{1}{T},&
+	T_{\text{Hawking}} &= \frac{\hbar c^3}{8 \pi G M}
+	\end{align}
+	und durch ersetzen von $E = Mc^2$, erhalten wir
+	\begin{align} \label{BHentropie}
+	S_{BH} &= \frac{c^3 A}{4 G \hbar} = \frac{A}{4 \ell_P^2} 
+	\end{align}
+	Der Horizont ist die1 Fläche $A$, welche eine Kugeloberfläche um das schwarze Loch mit dem Schwarzschildradius bildet:
+	\begin{align} \label{OberflaecheSH}
+	r_s &= \frac{2 GM}{c^2} ,& A = 4 \pi r_s^2 
+	\end{align}
+	Die Entropie in \eqref{BHentropie} wird auch Bekenstein-Hawking Entropie genannt. Die Plancklänge beträgt $\ell_p = \sqrt{\frac{G \hbar}{c^3}} \approx 10^{-32}\,$m.
 	
-	Typischerweise, bei einem Gitter aus Spins, misst die Maximalentropie die einfachen Freiheitsgrade, also wie oben erwähnt so etwas wie den Spin oder Fermionen. Außer in der Gravitationssystemen ist dies proportional zum Volumen $\Gamma$. 
+	Ein sonnen-schweres schwarzes Loch hätte eine Horizontfläche $\frac{1}{5}$-mal so groß wie die Erdoberfläche und ihre Entropie wäre von der Ordnung $10^{77}$. Dies ist über zehn Größenordnungen höher, als die Entropie der jetzigen Sonne.  
 	
-	Diese obere Grenze der Entropie sagt uns, dass die maximale Anzahl der sich unterscheidenden Freiheitsgrade proportional zur Fläche ist. Das bedeutet allerdings für große makroskopische Regionen eine enorme Verminderung die Freiheitsgrade. Bei einer Dimension $L$ skaliert die Anzahl der Freiheitsgrade pro Volumen mit $\frac{1}{L}$ in Planck Einheiten.
-	Wenn wir $L$ groß genug machen, werden die Freiheitsgrade also sehr dünn besiedelt im Raum verteilt sein. Allerdings wollen wir immer noch alle mikroskopischen Prozesse erfassen, die irgendwo in der Region passieren. 
+	Es scheint also, dass die Entropie des schwarzen Lochs nicht mit der hineingefallenen Entropie während seiner Entstehung verglichen werden kann.
 	
-	Eine Art und Weise dies zu betrachten ist mit Freiheitsgraden von $\Gamma$, welche alle auf $\partial \Gamma$ leben, mit einer Dichte nicht größer als $\sim 1$ Freiheitsgrad pro Planckfläche. In anderen Worten, wir beschreiben einen dreidimensionalen Raum, nämlich die Kugel um das schwarze Loch mit dem Horizontradius durch ein zweidimensionales Hologramm an der Grenze! Dies nennt man Holographisches Prinzip. 
+	Was man sich hier benützt, ist das sogenannte \textit{holographische Prinzip}.
 	
-	\begin{figure} 
+\subsubsection*{Das holographische Prinzip}
+	In einem flachen Raum, wie z.B. in der String Theorie verwendet, nehmen wir eine Region $\Gamma$ an, z.B. das Volumen ein schwarzen Lochs mit Radius gleich dem Schwarzschildradius. 
+	Die maximale Entropie, also auch die maximale Information, welche in $Gamma$ hineinpasst ist proportional zur Fläche des Randes $\partial \Gamma$, in unserem Fall der Fläche A aus Gleichung \eqref{OberflaecheSH}.
+	Dabei zählt die Entropie auf diesem Rand $\partial \Gamma$ in Planckflächen, genauer gesagt, ein Bit entspricht vier Planckflächen, anschaulich dargestellt in Abb. \ref{holoPrinzip}.
+	\begin{figure} [h] 
 		\begin{center}
 			\includegraphics[width=0.6\textwidth]{BHentropy1}
 		\end{center}
-		\caption{Zweidimensionale Oberfläche des Horizonts aufgeteilt in Planck Einheiten. Die Entropie hat allerdings eine Einheit von 4 solchen Planckflächen für ein Bit. Siehe (\ref{BHentropie}). (aus \cite{BekensteinHawking})}
+		\caption{Zweidimensionale Oberfläche des Horizonts aufgeteilt in Planck Einheiten. Die Entropie hat allerdings eine Einheit von 4 solchen Planckflächen für ein Bit. Siehe (\ref{BHentropie}). (aus \cite{BekensteinHawking})} \label{holoPrinzip}
 	\end{figure} 
+	
+%zweiter HS Fläche proto Entropie, hier holographisches Prinzip
+	Nun könnte man in einem Gedankenexperiment alle Energie und Information des Universums zusammenpacken, in ein solches Volumen und dann dieses soweit ausdehnen bis der Rand dieses Volumens der Rand des für uns sichtbaren Universums bildet. Alle Information, die es in unserem Universum gibt, wäre dann \textit{allein} in diesem Rand gespeichert!
+%ganzes Universum, sehr verallgemeinert worden (Bousseau)
+	
+	Auf Grund des Oberflächen-Volumen Verhältnis (siehe Appendix \ref{O/V-Verhaeltnis}) ergibt sich, dass die Oberflächen zwei einzelner schwarzer Löcher immer kleiner ist, als die Oberfläche der bereits zu einem Dritten verschmelzen. Da wir inzwischen wissen, dass die Oberfläche proportional zur Entropie und diese wiederum proportional zur Masse des schwarzen Lochs ist, gilt 
+		\begin{align}
+			M_3 > M_2 + M_1
+		\end{align} 
+	wobei $M_3$ das verschmolzene schwarze Loch ist, welches ursprünglich mal aus $M_2$ und $M_1$ bestand. 
+%bilder zwei schwarze löcher vereinigen M_3 > M_2 + M_1 usw.
 
 \FloatBarrier
 \section{Evaporation \checkmark} \label{evaporation}
-Stephen Hawking hat in seinem Paper \cite{ParticleCreation} gezeigt, dass ein großes schwarzes Loch für einen Beobachter in großer Ferne eine Temperatur besitzt:
-	\begin{equation}\label{HawkingTemp} 
-		T_{\text{Hawking}} = \frac{\hbar c^3}{8 \pi GM}
-	\end{equation}
-Nun bedeutet dies eine gewisse Wärmestrahlung, welche von jedem schwarzen Loch ausgeht also ein Energieverlust. Dank Einstein wissen wir, dass Masse und Energie sich gleichen, wenn man c = 1 setzt. Jedes schwarze Loch verliert also im Lauf der Zeit an Masse, bis es verdampft. Dieser Vorgang wird als Evaporation bezeichnet. Nach einigen Rechnungen, siehe z.B. \cite{JerusalemsLectures}, erfahren wir, dass
+
+Wie wir bereits wissen, besitzt ein großes schwarzes Loch für einen Beobachter in großer Ferne eine Temperatur (siehe Gleichung \eqref{HawkingTemp}) besitzt. Dies hat eine Wärmestrahlung zur Folge also ein Energieverlust.
+
+Dank Einstein wissen wir, dass Masse und Energie sich gleichen, wenn man c = 1 setzt. Jedes schwarze Loch verliert also im Lauf der Zeit an Masse, bis es verdampft. Dieser Vorgang wird als Evaporation bezeichnet. Nach einigen Rechnungen, siehe z.B. \cite{JerusalemsLectures}, erfahren wir, dass
 	\begin{align}
 		t_{\text{evap}} \sim G^2 M^3
 	\end{align} 
@@ -193,40 +217,27 @@ Wem das nicht gefällt, der würde eher für einen dritten Punkt stimmen:
 		\item Die Hawkingstrahlung kommt genau genommen nicht in einem Mischzustand. Die Information wird in den Verbindungen zwischen Hawkingphotonen hinausgetragen. Am Ende der Verdampfung haben wir wieder einen reinen Zustand des Strahlungsfeldes. Nur kleine Untersysteme sehen so aus, als wären sie thermisch, deshalb funktioniert diese Betrachtungsweise nur, wenn wir nicht auf zu viele Photonen zugleich schauen. 
 	\end{enumerate}   
 (Bei weiterer Interesse, bitte siehe Jerusalem Lectures \cite{JerusalemsLectures})
-
-	
-	\section{Die Entropie des schwarzen Lochs in Formeln}
-	Masse, elektrische Ladung und Drehmoment sind in der gleichen Kombination immer proportional zur Oberfläche des schwarzen Lochs. Sowohl Hawking also auch Misner, Thorne und Wheeler haben gezeigt, dass sein Ereignishorizont nicht kleiner werden kann, meistens wird er sogar größer.
-	
-	Diese Oberfläche verhält sich sozusagen wie die thermodynamische Entropie in geschlossenen Systemen. 
-	Durch die Hawkingtemperatur \cite{ParticleCreation} und der Definition von Temperatur in der Thermodynamik
-		\begin{align}
-			\frac{\diff S}{\diff E} &= \frac{1}{T},&
-			T_{\text{Hawking}} &= \frac{\hbar c^3}{8 \pi G M}
-		\end{align}
-	und durch ersetzen von $E = Mc^2$, erhalten wir
-		\begin{align} \label{BHentropie}
-			S_{BH} &= \frac{c^3 A}{4 G \hbar} = \frac{A}{4 L_P^2} 
-		\end{align}
-	Der Horizont ist an Fläche $A$, welche eine Kugeloberfläche um das schwarze Loch mit dem Schwarzschildradius bildet:
-		\begin{align}
-			r_h &= \frac{2 GM}{c^2} ,& A = 4 \pi r_h^2 
-		\end{align}
-	Ein sonnen-schweres schwarzes Loch hätte eine Horizontfläche $\frac{1}{5}$-mal so groß wie die Erdoberfläche und ihre Entropie wäre von der Ordnung $10^{77}$. Dies ist über zehn Größenordnungen höher, als die Entropie der jetzigen Sonne.  
-	
-	Es scheint also, dass die Entropie des schwarzen Lochs nicht mit der hineingefallenen Entropie während seiner Entstehung verglichen werden kann.	
 	
 \section{Weitere Betrachtungen}
 	\subsection{Wirkungsintegrale}
-	\subsection{Loop Quantum Gravity (LQG)}	%geht nicht in ART, CPT falsch
+	\subsection{Loop Quantum Gravity (LQG) \checkmark}	%geht nicht in ART, CPT falsch
 Die Loop-Quantengravitation (Loop = Schleifen) ist eine Konkurrenztheorie der Stringtheorie und nimmt keine Singularität in der Mitte des schwarzen Lochs an, sondern beinhaltet die Theorie, dass es weiße Löcher gibt, die sich wie schwarze Löcher verhalten, nur das die Zeit rückwärts läuft. 
 
-Ein einlaufendes Wellenpaket würde dann, während es einem `Quantum bounce' durchmacht, durch das schwarze Loch in ein weißes Loch hineintunneln. Eine Metrik dazu haben Rovelli und Haggard \cite{LQGRovelli} aufgestellt. Die Folge für die Entropie des schwarzen Lochs sind am Ende `nur' Korrekturterme.
+Ein einlaufendes Wellenpaket würde dann, während es einem `Quantum bounce' (siehe Appendix
+\ref{QuantumBounce}) durchmacht, durch das schwarze Loch in ein weißes Loch hineintunneln. Eine Metrik dazu haben Rovelli und Haggard \cite{LQGRovelli} aufgestellt. Die Folge für die Entropie des schwarzen Lochs sind am Ende `nur' Korrekturterme.
 %Hier kommen damit korrekturen 
 
 %nur Quantenmechanik sagen, Information kann nicht verloren geht
 
 \appendix
+\section{Zustände in der Thermodynamik}
+
+\subsection*{Mikrozustand}
+Ein Mikrozustand ist im klassischen Fall ein Punkt im Phasenraum. Damit ist Ort und Impuls für jedes Teilchen gegeben.
+
+\subsection*{Makrozustand}
+Viele Mikrozustände bilden einen Makrozustand, der durch Parameter dargestellt ist, die nicht mehr direkt mit Ort oder Impuls einzelner Teilchen zu tun hat.
+
 \section{Verschränkung} \label{Verschränkung}
 	Durch die Quantenfluktuation im Vakuum, die durch die Heisenbergsche Unschärferelation auch erlaubt ist, können Teilen und Antiteilchen für kurze Zeit sozusagen aus dem Nichts entstehen und wieder verschwinden. Dabei sind genau diese Teilen verschränkt.
 	\\ \\
@@ -236,20 +247,28 @@ Ein einlaufendes Wellenpaket würde dann, während es einem `Quantum bounce' dur
 	Zu Beginn wissen wir nicht, welche Kugel welche Farbe hat, sie stecken z.B. in zwei separaten Kisten. Wir nennen die Kugeln $K_1$ und $K_2$ und entfernen Sie voneinander, sodass wir nur noch $K_1$ in einer Kiste vor uns haben. 
 	
 	Wenn wir nun die Kiste öffnen, wissen wir nicht nur, welche Farbe $K_1$ hat, sondern auch, dass die Kugel $K_2$, die wir im Moment nicht sehen können, genau die andere Farbe hat! 
-	
 	Solange wir aber die Kisten nicht öffnen, befinden sich die Kugeln in einem verschränkten Zustand, in dem zwar beide Farben möglich sind, aber die Farben voneinander abhängen. 
 	
 	Das bedeutet allerdings nicht, dass so Information übertragen werden kann. Entfernen wir z.B. die zweite Kugel bis zum anderen Ende der Milchstraße, so wissen wir beim Öffnen unserer Kiste welche Farbe die Kugel auf am anderen Ende hat, aber die Person, die dort steht wird das erst erfahren, wenn sie selbst die Kiste öffnet oder wir ein Signal dort hingeschickt haben.
 
-\section{Zustände in der Thermodynamik}
+\section{Quantum bounce} \label{QuantumBounce}
+	Wenn es z.B. um die Urknalltheorie geht, dann besagt der Quantum bounce, dass unser Universum erst ausgedehnt war wie es jetzt ist, dann sich der Raum sehr hoch verdichtet hat, und dann wieder in die jetztige Größe `gebounct' ist. Das bedeutet im Falle der LQG, dass das schwarze Loch sich irgendwann zusammenzieht, und dann als weißes Loch wieder `zurückbounct' und sozusagen alles, was es aufgesaugt hat, wieder ausspuckt. Da aber für einen entfernten Beobachter Gegenstände, die Nahe am Horizont sind und gerade hineinfallen, unglaublich langsam erscheinen, wird es sehr lange dauern, so einen 'Quantum bounce' bei einem schwarzen Loch zu sehen.  
 
-\subsection*{Mikrozustand}
-Ein Mikrozustand ist im klassischen Fall ein Punkt im Phasenraum. Damit ist Ort und Impuls für jedes Teilchen gegeben.
-
-\subsection*{Makrozustand}
-Viele Mikrozustände bilden einen Makrozustand, der durch Parameter dargestellt ist, die nicht mehr direkt mit Ort oder Impuls einzelner Teilchen zu tun hat. 
-
-
+\section{Oberflächen-Volumen Verhälnis} \label{O/V-Verhaeltnis}
+	Das Volumen einer Kugel steigt im Verhälnis zu ihrer Oberfläche nur zu einem Drittel.
+	Das kann man so berechnen
+		\begin{align*}
+			\left.
+			\begin{aligned}
+			A &= 4 \pi r^2 \\
+			V &= \frac{4}{3} \pi r^3 
+			\end{aligned}
+			\right\}
+			&\Rightarrow 
+			\frac{A}{V} = \frac{4 \pi r^2}{\frac{4}{3} \pi r^3} = \frac{3}{r} \\
+			\text{setzte }r = 1 &\Rightarrow V = \frac{1}{3} A			
+		\end{align*}
+	Ein ähnliches Verhältnis gilt für alle Körper. In der Biologie versucht man so zu erklären, warum die Menschen in kalten Regionen im Durchschnitt größer sind als in warmen. 
 \newpage
 \printbibliography
 %\printindex

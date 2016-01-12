@@ -27,9 +27,13 @@
   \strng{namehash}{BJD1}
   \strng{fullhash}{BJD1}
   \field{sortinit}{B}
+  \field{note}{revision \#135543}
   \field{number}{10}
   \field{pages}{7375}
   \field{title}{{B}ekenstein-{H}awking entropy}
+  \verb{url}
+  \verb http://www.scholarpedia.org/article/Bekenstein-Hawking_entropy
+  \endverb
   \field{volume}{3}
   \field{journaltitle}{Scholarpedia}
   \field{year}{2008}
@@ -100,6 +104,35 @@
   \strng{fullhash}{HD1}
   \field{sortinit}{H}
   \field{title}{Jerusalem Lectures on Black Holes and Quantum Information}
+  \verb{url}
+  \verb http://arxiv.org/abs/1409.1231
+  \endverb
+  \field{year}{2014}
+\endentry
+
+\entry{MisnerThorneWheeler}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Misner}{M.}%
+     {C.~W.}{C.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thorne}{T.}%
+     {K.~S.}{K.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wheeler}{W.}%
+     {J.~A.}{J.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MCWTKSWJA1}
+  \strng{fullhash}{MCWTKSWJA1}
+  \field{sortinit}{M}
+  \field{journaltitle}{Gravitation, San Francisco, Freeman}
+  \field{year}{1973}
 \endentry
 
 \entry{BreakdownGravitationalCollapse}{article}{}
