@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.9.8)  13 JAN 2016 13:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.9.8)  13 JAN 2016 14:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1357,28 +1357,20 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [7
 
 ]
-File: Hawkingstrahlung.jpg Graphic file (type jpg)
-
-<use Hawkingstrahlung.jpg>
-Package pdftex.def Info: Hawkingstrahlung.jpg used on input line 90.
-(pdftex.def)             Requested size: 153.64493pt x 108.43234pt.
- [8
-
-]
-<Kerr-Neumann.png, id=100, 451.6875pt x 316.18124pt>
+<Kerr-Neumann.png, id=95, 451.6875pt x 316.18124pt>
 File: Kerr-Neumann.png Graphic file (type png)
  <use Kerr-Neumann.png>
 Package pdftex.def Info: Kerr-Neumann.png used on input line 120.
 (pdftex.def)             Requested size: 128.0374pt x 89.6253pt.
 
-[9
+[8
 
  <./Kerr-Neumann.png>]
 File: Kerr-Neumann.png Graphic file (type png)
  <use Kerr-Neumann.png>
 Package pdftex.def Info: Kerr-Neumann.png used on input line 120.
 (pdftex.def)             Requested size: 128.0374pt x 89.6253pt.
- [10
+ [9
 
 ]
 File: Kerr-Neumann.png Graphic file (type png)
@@ -1386,27 +1378,27 @@ File: Kerr-Neumann.png Graphic file (type png)
 Package pdftex.def Info: Kerr-Neumann.png used on input line 120.
 (pdftex.def)             Requested size: 128.0374pt x 89.6253pt.
 
-[11
+[10
+
+] [11
 
 ] [12
 
 ] [13
 
-] [14
-
-] <BHentropy1.jpeg, id=137, 144.54pt x 98.769pt>
+] <BHentropy1.jpeg, id=132, 144.54pt x 98.769pt>
 File: BHentropy1.jpeg Graphic file (type jpg)
 
 <use BHentropy1.jpeg>
 Package pdftex.def Info: BHentropy1.jpeg used on input line 169.
 (pdftex.def)             Requested size: 138.2795pt x 94.49612pt.
- <kollidierendeSHs.jpg, id=138, 949.5475pt x 712.6625pt>
+ <kollidierendeSHs.jpg, id=133, 949.5475pt x 712.6625pt>
 File: kollidierendeSHs.jpg Graphic file (type jpg)
 
 <use kollidierendeSHs.jpg>
 Package pdftex.def Info: kollidierendeSHs.jpg used on input line 169.
 (pdftex.def)             Requested size: 138.2795pt x 103.77382pt.
- [15
+ [14
 
  <./BHentropy1.jpeg> <./kollidierendeSHs.jpg>]
 File: BHentropy1.jpeg Graphic file (type jpg)
@@ -1418,7 +1410,7 @@ File: kollidierendeSHs.jpg Graphic file (type jpg)
  <use kollidierendeSHs.jpg>
 Package pdftex.def Info: kollidierendeSHs.jpg used on input line 169.
 (pdftex.def)             Requested size: 138.2795pt x 103.77382pt.
- [16
+ [15
 
 ]
 File: BHentropy1.jpeg Graphic file (type jpg)
@@ -1430,40 +1422,40 @@ File: kollidierendeSHs.jpg Graphic file (type jpg)
 <use kollidierendeSHs.jpg>
 Package pdftex.def Info: kollidierendeSHs.jpg used on input line 169.
 (pdftex.def)             Requested size: 138.2795pt x 103.77382pt.
- [17
+ [16
 
 ]
-<evaporation.jpg, id=154, 521.95pt x 490.83376pt>
+<evaporation.jpg, id=149, 521.95pt x 490.83376pt>
 File: evaporation.jpg Graphic file (type jpg)
  <use evaporation.jpg>
 Package pdftex.def Info: evaporation.jpg used on input line 182.
 (pdftex.def)             Requested size: 138.2795pt x 130.03287pt.
 
-[18
+[17
 
- <./evaporation.jpg>] <bounce1.jpg, id=161, 1764.5925pt x 778.91pt>
+ <./evaporation.jpg>] <bounce1.jpg, id=156, 1764.5925pt x 778.91pt>
 File: bounce1.jpg Graphic file (type jpg)
 
 <use bounce1.jpg>
 Package pdftex.def Info: bounce1.jpg used on input line 209.
 (pdftex.def)             Requested size: 138.2795pt x 61.03047pt.
- [19
+ [18
 
  <./bounce1.jpg>]
 File: bounce1.jpg Graphic file (type jpg)
  <use bounce1.jpg>
 Package pdftex.def Info: bounce1.jpg used on input line 209.
 (pdftex.def)             Requested size: 138.2795pt x 61.03047pt.
- [20
+ [19
 
 ]
-<n-117451542-large570.jpg, id=174, 572.1375pt x 238.8925pt>
+<n-117451542-large570.jpg, id=169, 572.1375pt x 238.8925pt>
 File: n-117451542-large570.jpg Graphic file (type jpg)
 
 <use n-117451542-large570.jpg>
 Package pdftex.def Info: n-117451542-large570.jpg used on input line 220.
 (pdftex.def)             Requested size: 215.10196pt x 89.8141pt.
- [21
+ [20
 
  <./n-117451542-large570.jpg>]
 \tf@nav=\write6
@@ -1485,10 +1477,10 @@ Package rerunfilecheck Info: File `Vortrag.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 221.
  ) 
 Here is how much of TeX's memory you used:
- 21534 strings out of 493117
- 415845 string characters out of 6138985
- 497013 words of memory out of 5000000
- 24380 multiletter control sequences out of 15000+600000
+ 21529 strings out of 493117
+ 415739 string characters out of 6138985
+ 496934 words of memory out of 5000000
+ 24377 multiletter control sequences out of 15000+600000
  61349 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  81i,17n,88p,413b,846s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1506,10 +1498,10 @@ live/2014/texmf-dist/fonts/type1/public/lm/lmss8.pfb><c:/texlive/2014/texmf-dis
 t/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/pu
 blic/lm/lmsy10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/symb
 ols/msbm10.pfb>
-Output written on Vortrag.pdf (21 pages, 2860692 bytes).
+Output written on Vortrag.pdf (20 pages, 2859311 bytes).
 PDF statistics:
- 238 PDF objects out of 1000 (max. 8388607)
- 178 compressed objects within 2 object streams
- 47 named destinations out of 1000 (max. 500000)
+ 233 PDF objects out of 1000 (max. 8388607)
+ 174 compressed objects within 2 object streams
+ 45 named destinations out of 1000 (max. 500000)
  158 words of extra memory for PDF output out of 10000 (max. 10000000)
 
