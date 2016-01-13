@@ -1,4 +1,4 @@
-\documentclass[ngerman,ph]{beamer}
+\documentclass[ngerman,ph]{URbeamer}
 
 \usepackage{babel}
 \usepackage[utf8]{inputenc}
@@ -12,23 +12,23 @@
 \newcommand{\diff}{\mathrm{d}}
 
 
-\title{Thermodynamik schwarzer Löcher}
+\title{Thermodynamik \\schwarzer Löcher}
 \institute{Fakultät für Physik}
 %\subtitle{Im CD der Universität Regensburg}
 \author{Tamara Szecsey}
 
 \begin{document}
+	\frame[plain]{\titlepage}
+%	\begin{frame}
+%		\maketitle
+%%		\begin{figure} [h] 
+%%%			\begin{center}
+%%%				\includegraphics[width=0.7\textwidth]{n-117451542-large570}
+%%%			\end{center}
+%%		\end{figure}
+%	\end{frame}
 	
-	\begin{frame}
-		\maketitle
-		\begin{figure} [h] 
-			\begin{center}
-				\includegraphics[width=0.7\textwidth]{n-117451542-large570}
-			\end{center}
-		\end{figure}
-	\end{frame}
-	
-	\begin{frame}
+	\begin{frame}{Gliederung}
 		\tableofcontents
 	\end{frame}
 	
@@ -65,6 +65,7 @@
 			\end{center}
 		\end{figure} %http://www.spektrum.de/fm/912/thumbnails/SchwarzesLoch_fotolia64583984_PeterJurik.1584161.jpg.1584174.jpg		
 	\end{frame}
+	
 	\begin{frame}{Der Nullte Hauptsatz der Thermodynamik}	
 		\begin{figure} [h] 
 			\begin{center}
@@ -100,7 +101,7 @@
 					\end{align*}
 				Analogie zu schwarzen Löchern mit Hilfe von Kerr-Neumann Metrik und geschickt gewählten Koordinaten
 			\end{column}
-			\begin{column}{4cm}
+			\begin{column}{4.5cm}
 %				\begin{minipage}[l]{0.4\textwidth}
 					\includegraphics[width=\textwidth]{Kerr-Neumann}
 %				\end{minipage} %https://de.wikipedia.org/wiki/Kerr-Metrik (12.01.20016)
@@ -115,15 +116,39 @@
 	\end{frame}	
 
 	\begin{frame}{Der Zweite Hauptsatz der Thermodynamik}
-		\begin{figure}
-			\begin{minipage}[c]{0.45\textwidth}
+		\begin{block}{}
+		Es gilt Proportionalität der Oberfläche des schwarzen Lochs mit Masse, elektrischer Ladung und Drehmoment.
+		\end{block}
+		Durch die Hawkingtemperatur und der Definition von Temperatur in der Thermodynamik
+		\begin{align*}
+		\frac{\diff S}{\diff E} &= \frac{1}{T},&
+		T_{\text{Hawking}} &= \frac{\hbar c^3}{8 \pi G M}
+		\end{align*}
+		und durch ersetzen von $E = Mc^2$, erhalten wir
+		\begin{align*}
+		S_{BH} &= \frac{c^3 A}{4 G \hbar} = \frac{A}{4 \ell_{\mathrm{P}}^2} 
+		\end{align*}
+	\end{frame}
+	
+	\begin{frame}{Der Zweite Hauptsatz der Thermodynamik}
+		\begin{columns}
+			\begin{column}[c]{0.45\textwidth}
+				\centering{Holographisches Prinzip}
+			\end{column}
+			\begin{column}[c]{0.45\textwidth}
+				\centering{$M_3 > M_2 + M_1$}
+			\end{column}
+		\end{columns}
+		\vspace{0.3cm}
+		\begin{columns}
+			\begin{column}[c]{0.45\textwidth}
 				\includegraphics[width=\textwidth]{BHentropy1}
-			\end{minipage}
-			\hfill
-			\begin{minipage}[c]{0.45\textwidth}
+			\end{column}
+			\begin{column}[c]{0.45\textwidth}
+				\hfill
 				\includegraphics[width=\textwidth]{kollidierendeSHs}
-			\end{minipage}
-		\end{figure}
+			\end{column}
+		\end{columns}
 %		\begin{figure} [h] 
 %			\begin{center}
 %				\movie[externalviewer]{vlc}{earthpointofview_wmv}
@@ -133,9 +158,12 @@
 	
 	\section{Verdampfung}
 	\begin{frame}{Verdampfung/Evaporation}
+		\begin{align*}
+		t_{\text{evap}} \sim G^2 M^3
+		\end{align*} 
 		\begin{figure} [h] 
 			\begin{center}
-				\includegraphics[width=0.5\textwidth]{evaporation}
+				\includegraphics[width=0.45\textwidth]{evaporation}
 			\end{center}
 		\end{figure}
 	 %http://hubpages.com/education/Hawking-Radiation-and-Evaporating-Black-Holes#slide4018139
@@ -143,21 +171,39 @@
 	
 	\section{Weitere Betrachtung}
 	\begin{frame}{Weitere Betrachtung}
-		\begin{figure} [h] 
-			\begin{center}
-				\includegraphics[width=0.5\textwidth]{bounce1}
-			\end{center}
-		\end{figure} 
+		\begin{block}{Wirkungsintegrale}
+		Die Zustandssumme: 
+			\begin{align*}
+			Z = \int \diff [\Phi] \exp \left(- \frac{I_E}{\hbar}\right) 
+			\simeq \exp \left(- \frac{I_{E,B}}{\hbar}\right)
+			\end{align*}
+		\end{block}
+		\begin{block}{Loop Quantum Gravity}
+			\begin{columns}
+				\begin{column}[c]{0.45\textwidth}
+					Es existieren schwarze und weiße Löcher, aber keine Singularität.
+				\end{column}
+				\begin{column}[c]{0.45\textwidth}
+					\hfill
+					\includegraphics[width=\textwidth]{bounce1}
+				\end{column} % http://pics-about-space.com/black-matter-black-holes?p=2#
+			\end{columns}
+		\end{block} 
 %		\begin{figure} [h] 
 %			\begin{center}
 %				\includegraphics[width=0.5\textwidth]{bounce}
 %			\end{center}
 %		\end{figure} 
 	\end{frame}	
-	% http://pics-about-space.com/black-matter-black-holes?p=2#
+	
 	\begin{frame}
 		\begin{minipage}[c]{\textwidth}
 			\huge{Vielen Dank für Eure Aufmerksamkeit!}
-		\end{minipage}		
+		\end{minipage}	
+		\begin{figure} [h] 
+			\begin{center}
+				\includegraphics[width=0.7\textwidth]{n-117451542-large570}
+			\end{center}
+		\end{figure}	
 	\end{frame}
 \end{document}
