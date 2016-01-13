@@ -1,4 +1,4 @@
-\documentclass[PHONON = true, screen, ngerman]{beamer}
+\documentclass[ngerman,ph]{beamer}
 
 \usepackage{babel}
 \usepackage[utf8]{inputenc}
@@ -9,15 +9,21 @@
 \usepackage{amsmath}
 \usepackage{multimedia}
 
+\newcommand{\diff}{\mathrm{d}}
+
+
 \title{Thermodynamik schwarzer Löcher}
+\institute{Fakultät für Physik}
+%\subtitle{Im CD der Universität Regensburg}
 \author{Tamara Szecsey}
 
 \begin{document}
+	
 	\begin{frame}
 		\maketitle
 		\begin{figure} [h] 
 			\begin{center}
-				\includegraphics[width=0.6\textwidth]{n-117451542-large570}
+				\includegraphics[width=0.7\textwidth]{n-117451542-large570}
 			\end{center}
 		\end{figure}
 	\end{frame}
@@ -28,21 +34,37 @@
 	
 	\section{Was ist Informationsentropie?}
 	\begin{frame}{Informationsentropie}
-		Die Entropie zählt wieviele Mikrozustände eines Systems einen Makrozustand bilden. 
+		\begin{block}{}
+			Die Entropie zählt wieviele Mikrozustände eines Systems einen Makrozustand bilden. 
+			
+			Beispiel: Wurf von zwei W6 Würfeln.
+		\end{block}
 		
-		Beispiel: Wurf von zwei W6 Würfeln. 
-		
+		\begin{block}{}
 		Wie viele Ja-Nein-Fragen muss man beantworten, um das Ergebnis zu bekommen?
-		
-		Beispiel: Münzwurf hat die Informationsentropie von 1 Bit.
+		(Im Falle von genau zwei möglichen Ausgängen.)
+		Beispiel: Münzwurf hat die Informationsentropie von 1 Bit.	
+		\end{block}
+%		\hfill
 		\begin{figure} [h] 
 			\begin{center}
 				\includegraphics[width=0.5\textwidth]{Server}
 			\end{center}
 		\end{figure} 	 	%http://www.google.com/about/datacenters/gallery/images/_3000/IDI_018.jpg	
+		\hfill
 	\end{frame}
 	
 	\section{Die drei Hauptsätze}
+	\begin{frame}{Der Nullte Hauptsatz der Thermodynamik}
+		\begin{center}
+			\Large{Die Hawkingstrahlung} 
+		\end{center}
+		\begin{figure} [h] 
+			\begin{center}
+				\includegraphics[width=0.5\textwidth]{Hawkingstrahlung}
+			\end{center}
+		\end{figure} %http://www.spektrum.de/fm/912/thumbnails/SchwarzesLoch_fotolia64583984_PeterJurik.1584161.jpg.1584174.jpg		
+	\end{frame}
 	\begin{frame}{Der Nullte Hauptsatz der Thermodynamik}	
 		\begin{figure} [h] 
 			\begin{center}
@@ -51,20 +73,45 @@
 		\end{figure} 	%https://www.youtube.com/watch?v=_8bhtEgB8Mo&feature=youtu.be
 	\end{frame}
 	\begin{frame}{Der Nullte Hauptsatz der Thermodynamik}
+		\begin{center}
+			\Large{Die Hawkingstrahlung} 
+		\end{center}
 		\begin{figure} [h] 
 			\begin{center}
 				\includegraphics[width=0.5\textwidth]{Hawkingstrahlung}
 			\end{center}
-		\end{figure} %http://www.spektrum.de/fm/912/thumbnails/SchwarzesLoch_fotolia64583984_PeterJurik.1584161.jpg.1584174.jpg		
+		\end{figure} %http://www.spektrum.de/fm/912/thumbnails/SchwarzesLoch_fotolia64583984_PeterJurik.1584161.jpg.1584174.jpg	
+		Nullter Hauptsatz besagt nun, dass genauso viel Temperatur aufgenommen werden muss, wie abgestrahlt wird 
+		
+		$\Rightarrow$ Beschleunigung an der Oberfläche	
 	\end{frame}
 	
+	
 	\begin{frame}{Der Erste Hauptsatz der Thermodynamik}
-			\hfill 
-			\begin{minipage}[l]{0.4\textwidth}
-				\includegraphics[width=\textwidth]{Kerr-Neumann}
-			\end{minipage}
-			\vfill
-	 	%https://de.wikipedia.org/wiki/Kerr-Metrik (12.01.20016)	
+		Der erste Hauptsatz der Thermodynamik besagt Energieerhaltung:
+		\begin{align*}
+		\Delta U = \Delta Q + \Delta W
+		\end{align*}
+		\begin{columns}
+			\begin{column}{6cm}
+				Umgeschrieben:
+					\begin{align*}
+					\diff E = T\diff S + \diff W
+					\end{align*}
+				Analogie zu schwarzen Löchern mit Hilfe von Kerr-Neumann Metrik und geschickt gewählten Koordinaten
+			\end{column}
+			\begin{column}{4cm}
+%				\begin{minipage}[l]{0.4\textwidth}
+					\includegraphics[width=\textwidth]{Kerr-Neumann}
+%				\end{minipage} %https://de.wikipedia.org/wiki/Kerr-Metrik (12.01.20016)
+				\vfill
+			\end{column}
+		\end{columns}
+	\vfill
+	Ergebnis:
+		\begin{align*}
+		\diff (Mc^2) = \frac{\kappa}{8 \pi G} \diff A + \Omega \diff J - \Phi \diff q
+		\end{align*} 	 		
 	\end{frame}	
 
 	\begin{frame}{Der Zweite Hauptsatz der Thermodynamik}

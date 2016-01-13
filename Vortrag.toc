@@ -2,5 +2,5 @@
 \select@language {ngerman}
 \beamer@sectionintoc {1}{Was ist Informationsentropie?}{3}{0}{1}
 \beamer@sectionintoc {2}{Die drei Haupts\IeC {\"a}tze}{4}{0}{2}
-\beamer@sectionintoc {3}{Verdampfung}{8}{0}{3}
-\beamer@sectionintoc {4}{Weitere Betrachtung}{9}{0}{4}
+\beamer@sectionintoc {3}{Verdampfung}{9}{0}{3}
+\beamer@sectionintoc {4}{Weitere Betrachtung}{10}{0}{4}
