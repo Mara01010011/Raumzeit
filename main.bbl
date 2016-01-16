@@ -16,6 +16,13 @@
   {}
 \endgroup
 
+\entry{SeanCarrollVortrag}{online}{}
+  \verb{url}
+  \verb https://www.youtube.com/watch?v=_8bhtEgB8Mo
+  \endverb
+  \warn{\item Invalid format of field 'urldate'}
+\endentry
+
 \entry{BekensteinHawking}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -151,6 +158,21 @@
   \field{year}{1973}
 \endentry
 
+\entry{SeanCarroll}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {SeanCarroll}{S.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{S1}
+  \strng{fullhash}{S1}
+  \field{sortinit}{S}
+  \field{title}{spacetime and geometry}
+  \field{year}{2004}
+\endentry
+
 \entry{BreakdownGravitationalCollapse}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -159,8 +181,8 @@
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{S1}
-  \strng{fullhash}{S1}
+  \strng{namehash}{S2}
+  \strng{fullhash}{S2}
   \field{sortinit}{S}
   \field{pages}{2460\bibrangedash 2473}
   \field{title}{Breakdown of Predictability in Gravitational Collapse}
@@ -177,8 +199,8 @@
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{S1}
-  \strng{fullhash}{S1}
+  \strng{namehash}{S2}
+  \strng{fullhash}{S2}
   \field{sortinit}{S}
   \field{pages}{199\bibrangedash 220}
   \field{title}{Particle Creation by Black Holes}

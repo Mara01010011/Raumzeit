@@ -100,6 +100,8 @@ Wir machen nun zwei Zahlenbeispiele zur Veranschaulichung:
 (siehe auch \cite{Brenig})
 
 \section{In Bezug auf die thermodynamischen Hauptsätze}
+Ich möchte, bevor wir 
+
 	\subsection{Nullter Hauptsatz der Thermodynamik}
 %Temperatur müssen wir definieren können
 	Wir beginnen mit der Erklärung der Hawkingstrahlung. Diese fand Steven Hawking \cite{ParticleCreation}, als er den gekrümmten Raum in euklidische Koordinaten transformierte (z.B. Minkowski-Raum). Hierbei entstanden im Grundzustand Entartungen, die störungstheoretisch entwickelt werden müssen. 
@@ -107,9 +109,9 @@ Wir machen nun zwei Zahlenbeispiele zur Veranschaulichung:
 	Anschaulich bedeutet dies, dass zwei verschränkte Teilchen (siehe Appendix \ref{Verschränkung}), die durch Vakuumfluktuation am Horizont des schwarzen Lochs entstehen so getrennt werden, dass das mit negativer Energie in das schwarze Loch hinein fällt, und das, welches eine positive Energie besitzt ins Unendliche im Raum verschwindet. 
 	Genau letzteres sorgt für eine Hawkingstrahlung und die Hawkingtemperatur wie später in Kap \ref{evaporation} Gleichung \eqref{HawkingTemp} zu sehen.
 	
-	Nun besagt der nullte Hauptsatz der Thermodynamik, dass das schwarze Loch nur mit seiner Umwelt in thermodynamisches Gleichgewicht kommen kann, wenn es genauso viel Temperatur abstrahlt, wie es aufnimmt. 
+	Der Grund für diese physikalische Interpretation ist, dass das schwarze Loch mit dem Rest unseres Universums im thermischen Gleichgewicht stehen müsste. Da aber das Universum nicht einfach aus nichts besteht, sondern wir Hintergrundstrahlung messen können, muss das schwarze Loch auch strahlen. 
 	
-	Dies hat eine Beschleunigung an der Oberfläche zum Mittelpunkt des schwarzen Lochs zur Folge. \marginpar{Achtung, Analogie zu mechanischem GGW}
+	Die mechanische Analogie zu diesem Gesetz besagt außerdem, dass wir eine Beschleunignung an der Oberfläche zum Mittelpunkt des schwarzen Lochs haben, da, wie wir später sehen werden, alle Entropie am Horizont sitzt. \marginpar{ich habs immer noch ned ganz verstanden}
 
 	\subsection{Erster Hauptsatz der Thermodynamik}
 %Innere Energie dU
@@ -133,7 +135,8 @@ Wir machen nun zwei Zahlenbeispiele zur Veranschaulichung:
 		\begin{align} \label{1HS}
 			\diff (Mc^2) = \frac{\kappa}{8 \pi G} \diff A + \Omega \diff J - \Phi \diff q
 		\end{align} 
-	Hier bei wurde $E = Mc^2$ benutzt, außerdem sind die zwei letzten Summanden der Drehimpuls und die elektrische Feldstärke. $\kappa$ ist auf dem Schwarzschildradius eine Konstante und wird allgemein als Oberflächen-Schwerebeschleunigung bezeichnet. (siehe \cite{Gebhardt})
+	
+	Hierbei wurde $E = Mc^2$ benutzt und die Proportionalität zwischen Entropie und Oberfläche des schwarzen Lochs, welche aus dem zweiten Hauptsatz folgt (sieh Kap. \ref{zweiterHS}). Die Beiden letzten Summanden sind der Drehimpuls und die elektrische Feldstärke. $\kappa$ ist auf dem Schwarzschildradius eine Konstante und wird allgemein als Oberflächen-Schwerebeschleunigung bezeichnet. (siehe \cite{Gebhardt})
 	\\
 	
 	Dies bedeutet nun, dass die Änderung der Masse proportional zur Summe der Änderung der Fläche und der Änderung von Drehimpuls und elektrischem Feld ist.
@@ -192,7 +195,20 @@ Wir machen nun zwei Zahlenbeispiele zur Veranschaulichung:
 
 Wie wir bereits wissen, besitzt ein großes schwarzes Loch für einen Beobachter in großer Ferne eine Temperatur (siehe Gleichung \eqref{HawkingTemp}) besitzt. Dies hat eine Wärmestrahlung zur Folge also ein Energieverlust.
 
-Dank Einstein wissen wir, dass Masse und Energie sich gleichen, wenn man c = 1 setzt. Jedes schwarze Loch verliert also im Lauf der Zeit an Masse, bis es verdampft. Dieser Vorgang wird als Evaporation bezeichnet. Nach einigen Rechnungen, siehe z.B. \cite{JerusalemsLectures}, erfahren wir, dass
+Dank Einstein wissen wir, dass Masse und Energie sich gleichen, wenn man c = 1 setzt. Jedes schwarze Loch verliert also im Lauf der Zeit an Masse, bis es verdampft. Dieser Vorgang wird als Evaporation bezeichnet. 
+
+Man stellt fest, dass
+	\begin{align}
+		\frac{\diff E}{\diff t} \approx \frac{C}{r_s^2}
+	\end{align}
+gilt, wobei C eine analytisch nicht berechenbare Konstante ist.
+
+Hierbei fällt die Analogie zum Stefan-Boltzmann Gesetz $\frac{\diff E}{\diff A \diff t} = \sigma T^4$ auf. 
+Durch einsetzen erhalten wir eine Differentialgleichung für die Masse des schwarzen Lochs
+	\begin{align}
+		\frac{\diff M}{\diff t} = - \frac{C}{(GM)^2}
+	\end{align}	
+und so kommen wir auf die Zeit, die es brauchen würde, bis es vollkommen verdampft ist:
 	\begin{align}
 		t_{\text{evap}} \sim G^2 M^3
 	\end{align} 
@@ -239,6 +255,12 @@ Ein einlaufendes Wellenpaket würde dann, während es einem `Quantum bounce' (si
 %Hier kommen damit korrekturen 
 
 %nur Quantenmechanik sagen, Information kann nicht verloren geht
+\section{Schlusswort}
+	Ich hoffe, ich habe einen verständlichen Einblick in die Physik von schwarzen Löchern gegeben. Falls Sie noch weiter lesen möchten, das Buch von Sean Carroll \cite{SeanCarroll} und die Jerusalems Lectures \cite{JerusalemsLectures} sind für eine*n Physiker*in verständlich geschrieben. Sean Carroll hat auch für Nichtphysiker verständliches geschaffen, z.B. können Sie sich diesen Vortrag mal anhören: \cite{SeanCarrollVortrag}
+	
+	In diesem Gebiet gibt es noch viel zu holen. Wir haben immer noch keine Quantengravitationstheorie gefunden! Wir wissen immer noch nicht, was direkt während des Urknalls passiert ist, überall scheint unsere bekannte Physik zu versagen.
+	
+	Es ist an der jüngeren Generation Physikern und Physikerinnen oder Quereinsteigern die Lösung dieser Probleme zu finden! Also, worauf wartet ihr noch?!
 
 \appendix
 \section{Zustände in der Thermodynamik}

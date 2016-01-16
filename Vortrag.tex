@@ -83,7 +83,7 @@
 			\end{center}
 		\end{figure} %http://www.spektrum.de/fm/912/thumbnails/SchwarzesLoch_fotolia64583984_PeterJurik.1584161.jpg.1584174.jpg	
 		\begin{block}{}
-			Nullter Hauptsatz besagt nun, dass genauso viel Temperatur aufgenommen werden muss, wie abgestrahlt wird 
+			Nullter Hauptsatz besagt nun, dass genauso viel Wärmestrahlung aufgenommen werden muss, wie abgestrahlt wird 
 		
 			$\Rightarrow$ Beschleunigung an der Oberfläche	
 		\end{block}
@@ -169,16 +169,30 @@
 	\end{frame} %quelle: http://www.nasa.gov/mission_pages/hubble/multimedia/arp274_prt.htm
 	
 	\section{Verdampfung}
-	\begin{frame}{Verdampfung/Evaporation}
+	\begin{frame}{Verdampfung/Evaporation}	
+	Man findet: $\frac{\diff E}{\diff t} \approx \frac{C}{r_s^2}$
+	$\Rightarrow$ Analogie zum Stefan-Boltzmann Gesetz:
 		\begin{align*}
-		t_{\text{evap}} \sim G^2 M^3
-		\end{align*} 
-		\begin{figure} [h] 
-			\begin{center}
-				\includegraphics[width=0.45\textwidth]{evaporation}
-			\end{center}
-		\end{figure}
-	 %http://hubpages.com/education/Hawking-Radiation-and-Evaporating-Black-Holes#slide4018139
+			\frac{\diff E}{\diff A \diff t} = \sigma T^4
+		\end{align*}
+	\begin{columns}	
+		\begin{column}{0.5\textwidth}	
+		Für die Masse:
+			\begin{align*}
+				\frac{\diff M}{\diff t} = - \frac{C}{(GM)^2}
+			\end{align*}
+		Daraus ergibt sich:
+			\begin{align*}
+				t_{\text{evap}} \sim G^2 M^3
+			\end{align*} 
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\begin{figure} [h] 
+					\includegraphics[width=0.8\textwidth]{evaporation}
+			\end{figure}
+		 %http://hubpages.com/education/Hawking-Radiation-and-Evaporating-Black-Holes#slide4018139
+		 \end{column}
+	\end{columns}
 	\end{frame}
 	
 	\section{Weitere Betrachtung}
