@@ -58,7 +58,7 @@ Die thermodynamische Betrachtungsweise bietet die Möglichkeit, durch nur wenige
 Diese Seminararbeit soll einen kleinen Einblick geben, allerdings sind Sie von mir herzlich eingeladen, nein, ich fordere Sie sogar auf die Links im Anhang zu nutzen und sich weiter zu belesen oder sich den Vortrag von Sean Carroll \cite{SeanCarrollVortrag} anzusehen.  
 
 \section{Informationsentropie im Allgemeinen} \label{InfoentropieAllg}
-Zunächst ein kurzer Einblick, um welche Art von Entropie es sich hier handeln wird. Ludwig Boltzmann hatte festgestellt, dass eine Proportionalität zwischen der Entropie $S$ und $\log W$ herrscht, wobei $W$ die Wahrscheinlichkeit darstellt. Der zugehörige Proportionalitätsfaktor $k$ ist die Boltzmann-Konstante.
+Zunächst ein kurzer Einblick, um welche Art von Entropie es sich hier handeln wird. Ludwig Boltzmann hatte festgestellt, dass eine Proportionalität zwischen der Entropie $S$ und $\log W$ herrscht, wobei $W$ die Wahrscheinlichkeit, dass ein bestimmtes Ereignis stattfindet, darstellt. Der zugehörige Proportionalitätsfaktor $k$ ist die Boltzmann-Konstante.
 	\begin{align}
 		S &= k \log W
 	\end{align}
@@ -79,37 +79,37 @@ wobei $\rho$ die Wahrscheinlichkeit ist, die Energie $E_n$ im mikrokanonischen E
 
 Wie wir jetzt aber zu Information kommen, soll ein Beispiel zeigen. Dabei geht es um eine quantitativen Betrachtung der selben.
 Wir betrachten nun eine Reihe von Ereignissen $E_n (n = 1, 2, \ldots, N)$, die mit bestimmten Wahrscheinlichkeiten $\rho_n$ auftreten, wobei
-	\begin{align*}
+	\begin{align}
 		\sum_{n=1}^N \rho_n &= 1
-	\end{align*}
-Nun sehen wir das Eintreten bestimmter die Ereignisse $E_n$, dabei hat jede unserer Feststellungen hat einen Informationswert $I_n$. Nach häufiger Wiederholung kann man einen mittleren Informationsgehalt aufstellen:
-	\begin{align*}
+	\end{align}
+Nun sehen wir das Eintreten bestimmter Ereignisse $E_n$, dabei hat jede unserer Feststellungen einen Informationswert $I_n$. Nach häufiger Wiederholung kann man einen mittleren Informationsgehalt aufstellen:
+	\begin{align}
 		I = \sum_{n=1}^N \rho_n I_n
-	\end{align*}
+	\end{align}
 Hier legen wir wie in der Informationstheorie fest
-	\begin{align*} \label{Informationsgehalt}
+	\begin{align} \label{Informationsgehalt}
 		I = - \sum \rho_n \mathrm{ld}(\rho_n)
-	\end{align*}
-wobei $\mathrm{ld}(x)$ der dyadische Logarithmus von $x$ ist, also $2^{\mathrm{ld}(x)} = x$. 
+	\end{align}
+wobei $\mathrm{ld}(x)$ der dyadische Logarithmus von $x$ ist, also gilt $2^{\mathrm{ld}(x)} = x$. 
 Wir haben \eqref{Informationsgehalt} so festgelegt, dass ein Ereignis allein durch eine Ja oder Nein Frage (oder durch 0 und 1) vollständig charakterisierbar ist. 
-Dass unserer mittlerer Informationsgehalt unserer Entropie von \eqref{Informationsentropie} ähnlich sieht, ist kein Zufall.
+%Dass dieser mittlere Informationsgehalt unserer Entropie von \eqref{Informationsentropie} ähnlich sieht, ist kein Zufall.
 
 Wir machen nun zwei Zahlenbeispiele zur Veranschaulichung:
 	\begin{itemize}
-		\item[\textit{1.\,Beispiel:}] Sei $N=2, \rho_1 = \rho_2= \frac{1}{2}$ was sein könnte: Ein Teilchen hält sich mit gleicher Wahrscheinlichkeit in der linken oder rechten Hälfe eines Kastens auf, oder Zahl und Wappen für ein Münzwurf.
+		\item[\textit{1.\,Beispiel:}] Sei $N=2, \rho_1 = \rho_2= \frac{1}{2}$ was z.B. heißten könnte, ein Teilchen hält sich mit gleicher Wahrscheinlichkeit in der linken oder rechten Hälfe eines Kastens auf, oder eine Münze landet mit gleicher Wahrscheinlichkeit mit der Zahl oder dem Wappen nach oben gerichten auf dem Boden.
 		Es benötigt genau eine Ja-Nein-Frage, um herauszufinden, wo das Teilchen liegt oder wie herum die Münze gefallen ist.
 			\begin{align*}
 				I = \mathrm{ld}(2) = 1 \,\mathrm{bit}
 			\end{align*}
 		Ein Bit ist die Einheit für Information.
-		\item[\textit{2.\,Beispiel:}]Sei $N=6, \rho_n = \frac{1}{6}$, wobei die Ereignisse $E_n$ die Seiten eines Würfels sein könnten, der Informationsgehalt
+		\item[\textit{2.\,Beispiel:}]Sei $N=6, \rho_n = \frac{1}{6}$, wobei die Ereignisse $E_n$ die Seiten eines Würfels sein könnten, der Informationsgehalt ist dann
 			\begin{align*}
 				I = \mathrm{ld}(6) &= 2,58 \,\mathrm{bit}
 			\end{align*}
 	\end{itemize}
 (siehe auch \cite{Brenig})
 
-\section{In Bezug auf die thermodynamischen Hauptsätze}
+\section{Die thermodynamischen Hauptsätze in Analogie zu schwarzen Löchern}
 Ich möchte zuvor noch kurz erklären, wie wir auf die später verwendete Hawkingtemperatur kommen. Diese wird hergeleitet aus der Unruh-Temperatur, welche aus dem Unruh-Effekt resultiert. Dieser besagt, dass ein beschleunigter Körper einer Schwarzkörperstrahlung ausgesetzt ist, welche proportional zu Beschleunigung ist. 
 Genauer gesagt gilt
 	\begin{align}
@@ -126,27 +126,26 @@ Genauer gesagt gilt
 	
 	Der Grund für diese physikalische Interpretation ist, dass das schwarze Loch mit dem Rest unseres Universums im thermischen Gleichgewicht stehen müsste. Da aber das Universum nicht einfach aus nichts besteht, sondern wir Hintergrundstrahlung messen können, muss das schwarze Loch auch strahlen. 
 	
-	Die mechanische Analogie zu diesem Gesetz besagt außerdem, dass wir eine Beschleunignung an der Oberfläche zum Mittelpunkt des schwarzen Lochs haben, da, wie wir später sehen werden, alle Entropie am Horizont sitzt. \marginpar{ich habs immer noch ned ganz verstanden}
+	Die mechanische Analogie zu diesem Gesetz besagt außerdem, dass wir eine Beschleunignung an der Oberfläche zum Mittelpunkt des schwarzen Lochs haben, da, wie wir später sehen werden, alle Entropie am Horizont sitzt.
 	
 	Mit anderen Worten, das Gravitationsfeld muss homogen sein, genau wie bei der Erde kann nicht im gleichen Abstand an der einen Stelle ein riesiges Gravitationsfeld sein, und an der Anderen gar keins.
 
 	\subsection{Erster Hauptsatz der Thermodynamik}
 %Innere Energie dU
-	Der erste Hauptsatz der Thermodynamik besagt, dass die Änderung der inneren Energie gleich der Änderung der Wärme zusammen mit der Änderung der Arbeit ist, vorausgesetzt, es handle sich um ein geschlossenes System. Er steht somit für Energieerhaltung.
+	Der erste Hauptsatz der Thermodynamik besagt, dass die Änderung der inneren Energie gleich der Summe aus der Änderung der Wärme und der Änderung der Arbeit ist, vorausgesetzt, es handle sich um ein geschlossenes System. Er steht somit für Energieerhaltung.
 		\begin{align}
 			\Delta U = \Delta Q + \Delta W
 		\end{align}
 	In unserem Fall wäre es nützlich, dies in der Form
 		\begin{align}
 			\diff E = T\diff S + \diff W
-		\end{align}
+		\end{align} 
 	zu schreiben. 
 	
 	Tatsächlich findet man eine analoge Gleichung für schwarze Löcher.
-	Dazu verwenden wir die zusammengedrückt Oberfläche mit einem ursprünglichen Radius gleich dem Schwarzschildradius, welche wie wir später abermals sehen werden, proportional zur Entropie ist (siehe Kap. \ref{zweiterHS}), welche durch die Kerr-Neumann Metrik und geschickt gewählten Koordinaten namens Boyer-Lindquist Koordinaten beschrieben wird. 
-	\marginpar{bitte Referenz angeben}
+	Hierzu verwenden wir die Oberfläche des schwarzen Lochs mit dem Schwarzschildradius, welche, wie wir später abermals sehen werden, proportional zur Entropie ist (siehe Kap. \ref{zweiterHS}). Allerdings berücksichtigen wir die Rotation, wodurch die Kugel mit dem Schwarzschildradius zusammengedrückt wird. Für die Beschreibung benutzt man die Kerr-Neumann Metrik und geschickt gewählten Koordinaten namens Boyer-Lindquist Koordinaten.
 	
-	Da ich hier viele Formeln vermeiden möchte, bitte sehen Sie für Genaueres z.B. \cite{BekensteinHawking} oder \cite{Gebhardt}.
+	Da eine ausführliche, mathematische Darstellung den Rahmen von dieser Seminararbeit sprengen würde, möchte ich für Berechnung auf \cite{BekensteinHawking} oder \cite{Gebhardt} verweisen.
 	
 	Das Endergebnis ist von der Gestalt
 		\begin{align} \label{1HS}
@@ -159,8 +158,8 @@ Genauer gesagt gilt
 	Dies bedeutet nun, dass die Änderung der Masse proportional zur Summe der Änderung der Fläche und der Änderung von Drehimpuls und elektrischem Feld ist.
 
 \subsection{Zweiter Hauptsatz der Thermodynamik} \label{zweiterHS}
-	Bevor man auf die obige Gleichung \ref{1HS} kommt, wird man feststellen, dass Masse, elektrische Ladung und Drehmoment in der gleichen Kombination immer proportional zur Oberfläche des schwarzen Lochs sind. 
-	Außerdem haben sowohl Hawking \cite{ParticleCreation} also auch Misner, Thorne und Wheeler \cite{MisnerThorneWheeler} gezeigt, dass der Ereignishorizont eines schwarzen Lochs nicht kleiner werden kann, meistens wird er sogar größer. \marginpar{ich bin mir nicht immer ganz sicher in welchem Paper Hawking was gesagt hat}
+	Bevor man auf die obige Gleichung \ref{1HS} kommt, wird man feststellen, dass Masse, elektrische Ladung und Drehmoment immer proportional zur Oberfläche des schwarzen Lochs sind. 
+	Außerdem haben sowohl Hawking \cite{ParticleCreation} also auch Misner, Thorne und Wheeler \cite{MisnerThorneWheeler} gezeigt, dass der Ereignishorizont eines schwarzen Lochs nicht kleiner werden kann, sondern gleich bleibt oder sogar größer wird. 
 	
 	Diese Oberfläche verhält sich sozusagen wie die thermodynamische Entropie in geschlossenen Systemen. 
 	
@@ -173,7 +172,7 @@ Genauer gesagt gilt
 	\begin{align} \label{BHentropie}
 	S_{BH} &= \frac{c^3 A}{4 G \hbar} = \frac{A}{4 \ell_P^2} 
 	\end{align}
-	Der Horizont ist die1 Fläche $A$, welche eine Kugeloberfläche um das schwarze Loch mit dem Schwarzschildradius bildet:
+	Der Ereignishorizont ist die Fläche $A$, welche eine Kugeloberfläche um das schwarze Loch mit dem Schwarzschildradius bildet:
 	\begin{align} \label{OberflaecheSH}
 	r_s &= \frac{2 GM}{c^2} ,& A = 4 \pi r_s^2 
 	\end{align}
@@ -181,9 +180,9 @@ Genauer gesagt gilt
 	
 	Ein sonnen-schweres schwarzes Loch hätte eine Horizontfläche $\frac{1}{5}$-mal so groß wie die Erdoberfläche und ihre Entropie wäre von der Ordnung $10^{77}$. Dies ist über zehn Größenordnungen höher, als die Entropie der jetzigen Sonne.  
 	
-	Es scheint also, dass die Entropie des schwarzen Lochs nicht mit der hineingefallenen Entropie während seiner Entstehung verglichen werden kann.
+	Es scheint als ob die Entropie des schwarzen Lochs sich nicht mit der hineingefallenen Entropie während seiner Entstehung gleicht.
 	
-	Was man sich hier benützt, ist das sogenannte \textit{holographische Prinzip}.
+	Was man hier benützt hat, ist das sogenannte \textit{holographische Prinzip}.
 	
 \subsubsection*{Das holographische Prinzip}
 	In einem flachen Raum, wie z.B. in der String Theorie verwendet, nehmen wir eine Region $\Gamma$ an, z.B. das Volumen ein schwarzen Lochs mit Radius gleich dem Schwarzschildradius. 

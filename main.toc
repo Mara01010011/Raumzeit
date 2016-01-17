@@ -6,7 +6,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Informationsentropie im Allgemeinen}{3}{section.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}In Bezug auf die thermodynamischen Haupts\IeC {\"a}tze}{4}{section.3}
+\contentsline {section}{\numberline {3}Die thermodynamischen Haupts\IeC {\"a}tze in Analogie zu schwarzen L\IeC {\"o}chern}{4}{section.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1}Nullter Hauptsatz der Thermodynamik}{5}{subsection.3.1}
 \defcounter {refsection}{0}\relax 
