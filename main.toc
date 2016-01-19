@@ -14,7 +14,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3}Zweiter Hauptsatz der Thermodynamik}{6}{subsection.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Evaporation}{8}{section.4}
+\contentsline {section}{\numberline {4}Evaporation/Verdampfung}{8}{section.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5}Weitere Betrachtungen}{9}{section.5}
 \defcounter {refsection}{0}\relax 
