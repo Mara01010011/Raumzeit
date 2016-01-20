@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.9.8)  16 JAN 2016 15:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.9.8)  20 JAN 2016 12:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1433,7 +1433,7 @@ Package pdftex.def Info: evaporation.jpg used on input line 196.
 
 [17
 
- <./evaporation.jpg>] <bounce1.jpg, id=157, 1764.5925pt x 778.91pt>
+ <./evaporation.jpg>] <bounce1.jpg, id=158, 1764.5925pt x 778.91pt>
 File: bounce1.jpg Graphic file (type jpg)
 
 <use bounce1.jpg>
@@ -1449,7 +1449,7 @@ Package pdftex.def Info: bounce1.jpg used on input line 223.
  [19
 
 ]
-<n-117451542-large570.jpg, id=170, 572.1375pt x 238.8925pt>
+<n-117451542-large570.jpg, id=171, 572.1375pt x 238.8925pt>
 File: n-117451542-large570.jpg Graphic file (type jpg)
 
 <use n-117451542-large570.jpg>
@@ -1486,22 +1486,23 @@ Here is how much of TeX's memory you used:
  81i,17n,88p,413b,846s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2014/tex
 mf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{c:/texlive/2014/texmf-dist/fonts/enc/
-dvips/lm/lm-rm.enc}{c:/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
+dvips/lm/lm-mathit.enc}{c:/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 }{c:/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}<c:/texlive/2014/
 texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2014/texmf-dist/fonts/t
 ype1/public/lm/lmmi10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/lm/lmm
-i8.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/
-2014/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2014/texmf-dist/font
-s/type1/public/lm/lmr8.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/lm/lm
-ss10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/texli
-ve/2014/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/2014/texmf-dist
-/fonts/type1/public/lm/lmss8.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public
-/lm/lmssbx10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><
-c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Vortrag.pdf (20 pages, 2875711 bytes).
+i6.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/
+2014/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2014/texmf-dist/fon
+ts/type1/public/lm/lmr6.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/lm/l
+mr8.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/lm/lmss10.pfb><c:/texliv
+e/2014/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/texlive/2014/texmf-dist/
+fonts/type1/public/lm/lmss17.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public
+/lm/lmss8.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c
+:/texlive/2014/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2014/tex
+mf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Vortrag.pdf (20 pages, 2878241 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
- 177 compressed objects within 2 object streams
+ 241 PDF objects out of 1000 (max. 8388607)
+ 180 compressed objects within 2 object streams
  45 named destinations out of 1000 (max. 500000)
  158 words of extra memory for PDF output out of 10000 (max. 10000000)
 
